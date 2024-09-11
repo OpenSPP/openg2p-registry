@@ -2,9 +2,9 @@
 {
     "name": "G2P Auth: OIDC - Reg ID",
     "category": "G2P",
-    "version": "17.0.0.0.0",
+    "version": "17.0.1.2.1",
     "sequence": 1,
-    "author": "OpenG2P",
+    "author": "OpenG2P (OpenSPP fork)",
     "website": "https://openg2p.org",
     "license": "LGPL-3",
     "depends": ["g2p_auth_oidc", "g2p_registry_individual", "g2p_registry_group"],
