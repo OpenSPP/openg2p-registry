@@ -6,7 +6,8 @@
     "author": "OpenG2P (OpenSPP fork)",
     "website": "https://openg2p.org",
     "license": "LGPL-3",
-    "depends": ["g2p_encryption", "fastapi"],
+    "depends": ["g2p_encryption"],
+    "external_dependencies": {"python": ["fastapi==0.112.2"]},
     "data": ["data/fastapi_endpoint_security.xml"],
     "assets": {
         "web.assets_backend": [],
