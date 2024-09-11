@@ -2,6 +2,7 @@
 PyLD
 boto3
 cryptography
+cryptography<37
 extendable-pydantic
 jq
 jwcrypto
