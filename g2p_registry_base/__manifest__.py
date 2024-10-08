@@ -7,6 +7,7 @@
     "author": "OpenG2P (OpenSPP fork)",
     "website": "https://openg2p.org",
     "license": "LGPL-3",
+    "development_status": "Production/Stable",
     "depends": ["base", "mail", "contacts", "web", "portal"],
     "data": [
         "data/ir_config_params.xml",
