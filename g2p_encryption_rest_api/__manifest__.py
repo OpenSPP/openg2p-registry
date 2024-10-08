@@ -1,12 +1,13 @@
 {
     "name": "G2P Encryption: Rest API",
     "category": "G2P",
-    "version": "17.0.0.0.0",
+    "version": "17.0.1.2.1",
     "sequence": 1,
-    "author": "OpenG2P",
+    "author": "OpenG2P (OpenSPP fork)",
     "website": "https://openg2p.org",
     "license": "LGPL-3",
-    "depends": ["g2p_encryption", "fastapi"],
+    "depends": ["g2p_encryption"],
+    "external_dependencies": {"python": ["fastapi==0.112.2"]},
     "data": ["data/fastapi_endpoint_security.xml"],
     "assets": {
         "web.assets_backend": [],

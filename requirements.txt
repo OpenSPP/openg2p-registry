@@ -2,7 +2,9 @@
 PyLD
 boto3
 cryptography
+cryptography<37
 extendable-pydantic
+fastapi==0.112.2
 jq
 jwcrypto
 pydantic

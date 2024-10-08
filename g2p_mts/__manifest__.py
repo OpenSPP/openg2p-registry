@@ -1,8 +1,8 @@
 {
     "name": "OpenG2P Registry MTS Connector",
     "category": "MTS",
-    "version": "17.0.0.0.0",
-    "author": "OpenG2P",
+    "version": "17.0.1.2.1",
+    "author": "OpenG2P (OpenSPP fork)",
     "website": "https://openg2p.org",
     "license": "LGPL-3",
     "depends": ["mts_connector", "g2p_registry_base"],
