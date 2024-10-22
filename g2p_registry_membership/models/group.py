@@ -30,11 +30,12 @@ class G2PMembershipGroup(models.Model):
     def write(self, values):
         res = super().write(values)
         if self:
-            unique_kinds = self.env["g2p.group.membership.kind"].search([("is_unique", "=", True)])
-            for unique_kind in unique_kinds:
-                count = sum(1 for rec in self.group_membership_ids if unique_kind.id in rec.kind.ids)
-                if count > 1:
-                    raise ValidationError(_("Only one %s is allowed per group") % unique_kind.name)
+            for rec in self:
+                unique_kinds = self.env["g2p.group.membership.kind"].search([("is_unique", "=", True)])
+                for unique_kind in unique_kinds:
+                    count = sum(1 for member in rec.group_membership_ids if unique_kind.id in member.kind.ids)
+                    if count > 1:
+                        raise ValidationError(_("Only one %s is allowed per group") % unique_kind.name)
         return res
 
     @api.model
