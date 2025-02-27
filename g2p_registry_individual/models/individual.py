@@ -24,7 +24,7 @@ class G2PIndividual(models.Model):
     birthdate_not_exact = fields.Boolean("Approximate Birthdate")
     birthdate = fields.Date("Date of Birth")
     age = fields.Char(compute="_compute_calc_age", size=50, readonly=True)
-    gender = fields.Selection(selection=_get_dynamic_selection)
+    gender = fields.Many2one("gender.type")
 
     @api.onchange("is_group", "family_name", "given_name", "addl_name")
     def name_change(self):
