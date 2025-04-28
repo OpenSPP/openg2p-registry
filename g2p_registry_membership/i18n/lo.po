@@ -6,72 +6,69 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-08-21 13:24+0000\n"
-"Last-Translator: mansour rehman <mansour.rehman@gmail.com>\n"
-"Language-Team: Kurdish (Central) <https://translate.openspp.org/projects/"
-"openg2p/g2p_registry_membership/ckb/>\n"
-"Language: ckb\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: lo\n"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.actions.act_window,help:g2p_registry_membership.action_group_membership_kind
 msgid "Add a group membership kind!"
-msgstr "module: g2p_تۆمارکردن_ئەندامێتی"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model_terms:ir.actions.act_window,help:g2p_registry_membership.action_group_membership
 msgid "Add an individual to a group!"
-msgstr "module: g2p_تۆمارکردن_ئەندامێتی"
+msgstr ""
 
 #. module: g2p_registry_membership
 #. odoo-python
 #: code:addons/g2p_registry_membership/models/group_membership.py:0
 #, python-format
 msgid "Can't delete default kinds"
-msgstr "ناتوانرێت جۆرەکانی پێشوەختە بسڕدرێتەوە"
+msgstr ""
 
 #. module: g2p_registry_membership
 #. odoo-python
 #: code:addons/g2p_registry_membership/models/group_membership.py:0
 #, python-format
 msgid "Can't edit default kinds"
-msgstr "ناتوانرێت دەستکاری جۆرەکانی پێشوەختە بکرێت"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model_terms:ir.actions.act_window,help:g2p_registry_membership.action_group_membership
 msgid "Click the create button to enter the new group information."
-msgstr "بۆ داخڵکردنی زانیاری گروپە نوێیەکان کلیک لە دوگمەی دروستکردن بکە."
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model_terms:ir.actions.act_window,help:g2p_registry_membership.action_group_membership_kind
 msgid "Click the create button to enter the new group membership kind."
-msgstr "بۆ چوونە ناو جۆری نوێی ئەندامێتی گروپەکە کلیک لە دوگمەی دروستکردن بکە."
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model:ir.model,name:g2p_registry_membership.model_res_partner
 msgid "Contact"
-msgstr "پەیوەندی"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__create_uid
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__create_uid
 msgid "Created by"
-msgstr "دروست کراوە لەلایەن"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__create_date
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__create_date
 msgid "Created on"
-msgstr "دروستکراوە لەناو"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_group_membership_form
 msgid "Date Range"
-msgstr "مەودای بەروار"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__individual_birthdate
@@ -83,14 +80,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__display_name
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__display_name
 msgid "Display Name"
-msgstr "ناوی پێشاندراو"
+msgstr ""
 
 #. module: g2p_registry_membership
 #. odoo-python
 #: code:addons/g2p_registry_membership/models/group_membership.py:0
 #, python-format
 msgid "Duplication of Member is not allowed "
-msgstr "دووبارەکردنەوەی ئەندام ڕێگەپێدراو نییە "
+msgstr ""
 
 #. module: g2p_registry_membership
 #. odoo-python
@@ -124,53 +121,53 @@ msgstr ""
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.group_membership_filter
 msgid "Group"
-msgstr "گروپ"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.group_membership_filter
 msgid "Group By"
-msgstr "گروپ بەپێی"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_res_partner__group_membership_ids
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_res_users__group_membership_ids
 msgid "Group Members"
-msgstr "ئەندامانی گروپ"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model:ir.actions.act_window,name:g2p_registry_membership.action_group_membership
 #: model:ir.model,name:g2p_registry_membership.model_g2p_group_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_group_membership_form
 msgid "Group Membership"
-msgstr "ئەندامێتی گروپ"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model:ir.actions.act_window,name:g2p_registry_membership.action_group_membership_kind
 #: model:ir.model,name:g2p_registry_membership.model_g2p_group_membership_kind
 #: model:ir.ui.menu,name:g2p_registry_membership.menu_group_membership_kind
 msgid "Group Membership Kind"
-msgstr "ئەندامێتی گروپ جۆری"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_individuals_form_membership
 msgid "Group Name"
-msgstr "ناوی گروپ"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_group_membership_form
 msgid "Group:"
-msgstr "گروپ:"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_individuals_form_membership
 msgid "Groups"
-msgstr "گروپەکان"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__id
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__id
 msgid "ID"
-msgstr "ناسنامە"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields.selection,name:g2p_registry_membership.selection__g2p_group_membership__status__inactive
@@ -181,12 +178,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.group_membership_filter
 msgid "Individual"
-msgstr "تاکەکەسی"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_group_membership_form
 msgid "Individual:"
-msgstr "تاکە کەسی:"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__is_ended
@@ -196,35 +193,35 @@ msgstr ""
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__name
 msgid "Kind"
-msgstr "جۆر"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__write_uid
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__write_uid
 msgid "Last Updated by"
-msgstr "دوا نوێکردنەوە لەلایەن"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__write_date
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__write_date
 msgid "Last Updated on"
-msgstr "دوا نوێکردنەوە لە"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_groups_form_membership
 msgid "Member Name"
-msgstr "ناوی ئەندام"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_groups_form_membership
 msgid "Members"
-msgstr "ئەندامان"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_res_partner__individual_membership_ids
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_res_users__individual_membership_ids
 msgid "Membership to Groups"
-msgstr "ئەندامێتی بۆ گروپەکان"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_res_partner__z_ind_grp_num_individuals
@@ -239,7 +236,7 @@ msgstr ""
 #: code:addons/g2p_registry_membership/models/individual.py:0
 #, python-format
 msgid "Only one %s is allowed per group"
-msgstr "Only one %s is allowed per group"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_groups_form_membership
@@ -267,17 +264,17 @@ msgstr ""
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.group_membership_filter
 msgid "Search Group Memberships"
-msgstr "گەڕان بەدوای ئەندامێتی گروپدا"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_group_membership_form
 msgid "Select a Group..."
-msgstr "گروپێک هەڵبژێرە..."
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_group_membership_form
 msgid "Select an Individual..."
-msgstr "تاکێک هەڵبژێرە..."
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_groups_form_membership
@@ -287,7 +284,7 @@ msgstr ""
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__start_date
 msgid "Start Date"
-msgstr "ڕێکەوتی دەستپێكردن"
+msgstr ""
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__status
@@ -297,7 +294,7 @@ msgstr ""
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__is_unique
 msgid "Unique"
-msgstr "بێهاوتا"
+msgstr ""
 
 #. module: g2p_registry_membership
 #. odoo-python
@@ -312,6 +309,3 @@ msgstr ""
 #, python-format
 msgid "kind should not empty."
 msgstr ""
-
-#~ msgid "Last Modified on"
-#~ msgstr "دوا دەستکاریکردن لە"

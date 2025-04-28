@@ -65,7 +65,6 @@ msgstr "Ajoutez le numéro de téléphone d'un inscrit !"
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_registrant_tags
 #, fuzzy
-#| msgid "Add a Registrant's ID!"
 msgid "Add a Registrant's Tags!"
 msgstr "Ajoutez un ID d'inscrit !"
 
@@ -73,6 +72,11 @@ msgstr "Ajoutez un ID d'inscrit !"
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_relationship
 msgid "Add a Relationship!"
 msgstr "Ajoutez une relation !"
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_district_config
+msgid "Add a district!"
+msgstr ""
 
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_id_type
@@ -116,9 +120,20 @@ msgid "Cancel"
 msgstr "Annuler"
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__civil_status
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__civil_status
+msgid "CivilState"
+msgstr ""
+
+#. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_id_type
 msgid "Click the create button to enter a new ID type."
 msgstr "Cliquez sur le bouton Créer pour entrer un nouveau type d'ID."
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_district_config
+msgid "Click the create button to enter a new district."
+msgstr ""
 
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_relationship
@@ -141,8 +156,6 @@ msgstr ""
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_registrant_tags
 #, fuzzy
-#| msgid ""
-#| "Click the create button to enter the new registrant's ID information."
 msgid "Click the create button to enter the new registrant's Tags information."
 msgstr ""
 "Cliquez sur le bouton Créer pour saisir les informations d'identification du "
@@ -163,6 +176,16 @@ msgid "Color"
 msgstr ""
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__company_id
+msgid "Company"
+msgstr ""
+
+#. module: g2p_registry_base
+#: model:ir.model,name:g2p_registry_base.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.ui.menu,name:g2p_registry_base.g2p_configuration_menu_root
 msgid "Configuration"
 msgstr "Configuration"
@@ -179,6 +202,7 @@ msgstr "Pays"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__create_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__create_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__create_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__create_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__create_uid
@@ -190,6 +214,7 @@ msgstr "Créé par"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__create_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__create_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__create_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__create_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__create_date
@@ -223,17 +248,27 @@ msgid "Date Range"
 msgstr "Plage de dates"
 
 #. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/phone_number.py:0
+#, python-format
+msgid "Date collected cannot be in the future."
+msgstr ""
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__description
+msgid "Description"
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__destination
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_rel_filter
 #, fuzzy
-#| msgid "Relation"
 msgid "Destination"
 msgstr "Relation"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__destination_type
 #, fuzzy
-#| msgid "Registrant 1 partner type"
 msgid "Destination partner type"
 msgstr "Inscrit 1 type de partenaire"
 
@@ -260,12 +295,12 @@ msgstr "Désactiver l'assistant d'inscription"
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__disabled_by
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__disabled_by
 #, fuzzy
-#| msgid "Disabled by"
 msgid "Disabled By"
 msgstr "Désactivé par"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__display_name
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__display_name
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__display_name
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__display_name
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__display_name
@@ -274,6 +309,18 @@ msgstr "Désactivé par"
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__display_name
 msgid "Display Name"
 msgstr "Afficher un nom"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__district
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__district
+msgid "District"
+msgstr ""
+
+#. module: g2p_registry_base
+#: model:ir.actions.act_window,name:g2p_registry_base.action_district_config
+#: model:ir.ui.menu,name:g2p_registry_base.menu_district_config
+msgid "District Configuration"
+msgstr ""
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__end_date
@@ -296,7 +343,19 @@ msgid "Followers (Partners)"
 msgstr "Abonnés (Partenaires)"
 
 #. module: g2p_registry_base
+#: model:ir.model,name:g2p_registry_base.model_g2p_district
+msgid "G2P District"
+msgstr ""
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.openg2p_inherit_res_config_settings_view_form
+msgid "G2P Registry Settings"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
+#: code:addons/g2p_registry_base/tests/test_reg_relationship.py:0
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__is_group
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__is_group
 #, python-format
@@ -317,6 +376,7 @@ msgstr "A un message"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__id
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__id
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__id
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__id
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__id
@@ -333,6 +393,18 @@ msgid "ID Type"
 msgstr "Type d'ID"
 
 #. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_id_type_tree
+msgid "ID Type Validation"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/reg_id.py:0
+#, python-format
+msgid "ID Type must be unique."
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.actions.act_window,name:g2p_registry_base.action_id_type
 #: model:ir.ui.menu,name:g2p_registry_base.menu_id_type
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_id_filter
@@ -340,8 +412,26 @@ msgid "ID Types"
 msgstr "Types d'ID"
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__id_validation
+msgid "Id Validation"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/reg_id.py:0
+#, python-format
+msgid "Id type already exists"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/reg_id.py:0
+#, python-format
+msgid "Id type should not empty."
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_needaction
-#: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_unread
 msgid "If checked, new messages require your attention."
 msgstr ""
 "Si cette case est cochée, de nouveaux messages nécessitent votre attention."
@@ -353,10 +443,38 @@ msgid "If checked, some messages have a delivery error."
 msgstr "Si cochée, certains messages présentent une erreur de livraison."
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__income
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__income
+msgid "Income"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
+#: code:addons/g2p_registry_base/tests/test_reg_relationship.py:0
 #, python-format
 msgid "Individual"
 msgstr "Individu"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields.selection,name:g2p_registry_base.selection__g2p_reg_id__status__invalid
+msgid "Invalid"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/registrant.py:0
+#, python-format
+msgid "Invalid mobile number!"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/phone_number.py:0
+#: code:addons/g2p_registry_base/models/registrant.py:0
+#, python-format
+msgid "Invalid phone number!"
+msgstr ""
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__name_inverse
@@ -374,18 +492,8 @@ msgid "Is Related to:"
 msgstr "Est liée à :"
 
 #. module: g2p_registry_base
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard____last_update
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type____last_update
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number____last_update
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id____last_update
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel____last_update
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags____last_update
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship____last_update
-msgid "Last Modified on"
-msgstr "Dernière modification le"
-
-#. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__write_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__write_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__write_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__write_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__write_uid
@@ -397,6 +505,7 @@ msgstr "Mise à jour par"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__write_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__write_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__write_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__write_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__write_date
@@ -407,9 +516,9 @@ msgid "Last Updated on"
 msgstr "Mise à jour le"
 
 #. module: g2p_registry_base
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_main_attachment_id
-msgid "Main Attachment"
-msgstr "Pièce jointe principale"
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_config_settings__max_registrants_count_job_queue
+msgid "Maximum Registrants Before Using Job Queue"
+msgstr ""
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_has_error
@@ -422,6 +531,7 @@ msgid "Messages"
 msgstr "Messages"
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__name
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__name
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__id_type_as_str
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__relation_as_str
@@ -437,14 +547,19 @@ msgid "Number of Actions"
 msgstr "Nombre d'actions"
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_config_settings__batch_registrants_count_job_queue
+msgid "Number of Registrants Per Batch"
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_has_error_counter
 msgid "Number of errors"
 msgstr "Nombre d'erreurs"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_needaction_counter
-msgid "Number of messages which requires an action"
-msgstr "Nombre de messages nécessitant une action"
+msgid "Number of messages requiring action"
+msgstr ""
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_has_error_counter
@@ -452,9 +567,10 @@ msgid "Number of messages with delivery error"
 msgstr "Nombre de messages avec erreur de livraison"
 
 #. module: g2p_registry_base
-#: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Nombre de messages non lus"
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__occupation
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__occupation
+msgid "Occupation"
+msgstr ""
 
 #. module: g2p_registry_base
 #: model:ir.module.category,name:g2p_registry_base.openg2p_module
@@ -475,15 +591,24 @@ msgid "Phone Numbers"
 msgstr "Numéros de téléphone"
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_config_settings__phone_regex
+msgid "Phone Regex"
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__phone_sanitized
 msgid "Phone Sanitized"
 msgstr "Téléphone désinfecté"
 
 #. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.openg2p_inherit_res_config_settings_view_form
+msgid "Phone number validation"
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__disabled_reason
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__disabled_reason
 #, fuzzy
-#| msgid "Reason for disabling"
 msgid "Reason for Disabling"
 msgstr "Raison de la désactivation"
 
@@ -506,6 +631,7 @@ msgid "Registrant"
 msgstr "Inscrit"
 
 #. module: g2p_registry_base
+#. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
 #, python-format
 msgid "Registrant 1 and Registrant 2 cannot be the same."
@@ -544,7 +670,6 @@ msgstr "Relations de l'inscrit"
 #: model:ir.model,name:g2p_registry_base.model_g2p_registrant_tags
 #: model:ir.ui.menu,name:g2p_registry_base.menu_registrant_tags
 #, fuzzy
-#| msgid "Registrant IDs"
 msgid "Registrant Tags"
 msgstr "IDs de l'inscrit"
 
@@ -627,14 +752,12 @@ msgstr "Rechercher des relations"
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.registrant_tags_filter
 #, fuzzy
-#| msgid "Search Registrant IDs"
 msgid "Search Registrant Tags"
 msgstr "Rechercher IDs d'inscrit"
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
 #, fuzzy
-#| msgid "Select Relationship..."
 msgid "Select Destination..."
 msgstr "Sélectionnez une relation..."
 
@@ -651,9 +774,13 @@ msgstr "Sélectionnez une relation..."
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
 #, fuzzy
-#| msgid "Select Registrant..."
 msgid "Select Source..."
 msgstr "Sélectionnez un inscrit..."
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.openg2p_inherit_res_config_settings_view_form
+msgid "Set up phone regex based on country."
+msgstr ""
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__source
@@ -664,7 +791,6 @@ msgstr ""
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__source_type
 #, fuzzy
-#| msgid "Registrant 1 partner type"
 msgid "Source partner type"
 msgstr "Inscrit 1 type de partenaire"
 
@@ -674,6 +800,31 @@ msgid "Start Date"
 msgstr "Start Date"
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__state_id
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_district_config_tree
+msgid "State"
+msgstr ""
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__status
+msgid "Status"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/tags.py:0
+#, python-format
+msgid "Tag already Exists"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/tags.py:0
+#, python-format
+msgid "Tag name should not empty."
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__name
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__tags_ids
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__tags_ids
@@ -681,12 +832,14 @@ msgid "Tags"
 msgstr ""
 
 #. module: g2p_registry_base
+#. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
 #, python-format
 msgid "The starting date cannot be after the ending date."
 msgstr "La date de début ne peut pas être postérieure à la date de fin."
 
 #. module: g2p_registry_base
+#. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
 #, python-format
 msgid "There is already a similar relation with overlapping dates"
@@ -694,20 +847,11 @@ msgstr ""
 "Il existe déjà une relation similaire avec des dates qui se chevauchent"
 
 #. module: g2p_registry_base
+#. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
 #, python-format
 msgid "This registrant is not applicable for this relation type."
 msgstr "Ce déclarant n'est pas applicable pour ce type de relation."
-
-#. module: g2p_registry_base
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_unread
-msgid "Unread Messages"
-msgstr "Messages non lus"
-
-#. module: g2p_registry_base
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "Compteur de messages non lus"
 
 #. module: g2p_registry_base
 #: model:ir.module.category,description:g2p_registry_base.openg2p_module
@@ -715,9 +859,51 @@ msgid "User access level for the OpenG2P module"
 msgstr "Niveau d'accès utilisateur pour le module OpenG2P"
 
 #. module: g2p_registry_base
+#: model:ir.model.fields.selection,name:g2p_registry_base.selection__g2p_reg_id__status__valid
+msgid "Valid"
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__value
 msgid "Value"
 msgstr "Évaluer"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/registrant.py:0
+#, python-format
+msgid ""
+"You do not have the necessary permissions to delete partner records. Please "
+"contact the administrator."
+msgstr ""
+
+#~ msgid "Last Modified on"
+#~ msgstr "Dernière modification le"
+
+#~ msgid "Main Attachment"
+#~ msgstr "Pièce jointe principale"
+
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Nombre de messages nécessitant une action"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Nombre de messages non lus"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Messages non lus"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Compteur de messages non lus"
 
 #, python-format
 #~ msgid "Can't delete default ID Type"

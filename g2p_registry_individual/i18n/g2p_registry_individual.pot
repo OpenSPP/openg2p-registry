@@ -42,12 +42,6 @@ msgid "Add an Gender Type!"
 msgstr ""
 
 #. module: g2p_registry_individual
-#: model:ir.model.fields,field_description:g2p_registry_individual.field_res_partner__addl_name
-#: model:ir.model.fields,field_description:g2p_registry_individual.field_res_users__addl_name
-msgid "Additional Name"
-msgstr ""
-
-#. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Additional Name..."
 msgstr ""
@@ -150,14 +144,14 @@ msgid "District"
 msgstr ""
 
 #. module: g2p_registry_individual
-#: model:ir.model.fields,field_description:g2p_registry_individual.field_res_partner__family_name
-#: model:ir.model.fields,field_description:g2p_registry_individual.field_res_users__family_name
-msgid "Family Name"
+#: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
+msgid "Family Name..."
 msgstr ""
 
 #. module: g2p_registry_individual
-#: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
-msgid "Family Name..."
+#: model:ir.model.fields,field_description:g2p_registry_individual.field_res_partner__given_name
+#: model:ir.model.fields,field_description:g2p_registry_individual.field_res_users__given_name
+msgid "First Name"
 msgstr ""
 
 #. module: g2p_registry_individual
@@ -189,12 +183,6 @@ msgstr ""
 #: code:addons/g2p_registry_individual/models/gender.py:0
 #, python-format
 msgid "Gender type should not empty."
-msgstr ""
-
-#. module: g2p_registry_individual
-#: model:ir.model.fields,field_description:g2p_registry_individual.field_res_partner__given_name
-#: model:ir.model.fields,field_description:g2p_registry_individual.field_res_users__given_name
-msgid "Given Name"
 msgstr ""
 
 #. module: g2p_registry_individual
@@ -234,6 +222,12 @@ msgid "Individuals"
 msgstr ""
 
 #. module: g2p_registry_individual
+#: model:ir.model.fields,field_description:g2p_registry_individual.field_res_partner__family_name
+#: model:ir.model.fields,field_description:g2p_registry_individual.field_res_users__family_name
+msgid "Last Name"
+msgstr ""
+
+#. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_gender_type__write_uid
 msgid "Last Updated by"
 msgstr ""
@@ -241,6 +235,12 @@ msgstr ""
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_gender_type__write_date
 msgid "Last Updated on"
+msgstr ""
+
+#. module: g2p_registry_individual
+#: model:ir.model.fields,field_description:g2p_registry_individual.field_res_partner__addl_name
+#: model:ir.model.fields,field_description:g2p_registry_individual.field_res_users__addl_name
+msgid "Middle Name"
 msgstr ""
 
 #. module: g2p_registry_individual

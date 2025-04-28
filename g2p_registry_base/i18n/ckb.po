@@ -35,8 +35,8 @@ msgid ""
 "                                <span class=\"o_stat_text\">Phone No.</span>"
 msgstr ""
 "<span class=\"o_stat_text\">چالاککردن</span>\n"
-"                                 <span class=\"o_stat_text\">ژمارەی "
-"تەلەفۆن.</span>"
+"                                 <span class=\"o_stat_text\">ژمارەی تەلەفۆن."
+"</span>"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_needaction
@@ -72,6 +72,11 @@ msgstr "تاگەکانی تۆمارکەرێک زیاد بکە!"
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_relationship
 msgid "Add a Relationship!"
 msgstr "پەیوەندییەک زیاد بکە!"
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_district_config
+msgid "Add a district!"
+msgstr ""
 
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_id_type
@@ -115,9 +120,20 @@ msgid "Cancel"
 msgstr "هەڵوەشاندنەوە"
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__civil_status
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__civil_status
+msgid "CivilState"
+msgstr ""
+
+#. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_id_type
 msgid "Click the create button to enter a new ID type."
 msgstr "بۆ داخڵکردنی جۆری ناسنامەیەکی نوێ کلیک لە دوگمەی دروستکردن بکە."
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_district_config
+msgid "Click the create button to enter a new district."
+msgstr ""
 
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_relationship
@@ -156,6 +172,16 @@ msgid "Color"
 msgstr "ڕەنگ"
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__company_id
+msgid "Company"
+msgstr ""
+
+#. module: g2p_registry_base
+#: model:ir.model,name:g2p_registry_base.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.ui.menu,name:g2p_registry_base.g2p_configuration_menu_root
 msgid "Configuration"
 msgstr "ڕێکخستن"
@@ -172,6 +198,7 @@ msgstr "وڵات"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__create_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__create_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__create_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__create_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__create_uid
@@ -183,6 +210,7 @@ msgstr "دروست کراوە لەلایەن"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__create_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__create_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__create_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__create_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__create_date
@@ -214,6 +242,18 @@ msgstr "بەرواری لەکارخراوە"
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
 msgid "Date Range"
 msgstr "مەودای بەروار"
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/phone_number.py:0
+#, python-format
+msgid "Date collected cannot be in the future."
+msgstr ""
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__description
+msgid "Description"
+msgstr ""
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__destination
@@ -253,6 +293,7 @@ msgstr "لەکارکەوتووە لەلایەن"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__display_name
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__display_name
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__display_name
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__display_name
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__display_name
@@ -261,6 +302,18 @@ msgstr "لەکارکەوتووە لەلایەن"
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__display_name
 msgid "Display Name"
 msgstr "ناوی پێشاندراو"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__district
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__district
+msgid "District"
+msgstr ""
+
+#. module: g2p_registry_base
+#: model:ir.actions.act_window,name:g2p_registry_base.action_district_config
+#: model:ir.ui.menu,name:g2p_registry_base.menu_district_config
+msgid "District Configuration"
+msgstr ""
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__end_date
@@ -283,7 +336,19 @@ msgid "Followers (Partners)"
 msgstr "شوێنکەوتووان"
 
 #. module: g2p_registry_base
+#: model:ir.model,name:g2p_registry_base.model_g2p_district
+msgid "G2P District"
+msgstr ""
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.openg2p_inherit_res_config_settings_view_form
+msgid "G2P Registry Settings"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
+#: code:addons/g2p_registry_base/tests/test_reg_relationship.py:0
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__is_group
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__is_group
 #, python-format
@@ -304,6 +369,7 @@ msgstr "پەیام هەیە"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__id
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__id
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__id
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__id
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__id
@@ -320,6 +386,18 @@ msgid "ID Type"
 msgstr "جۆری ناسنامە"
 
 #. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_id_type_tree
+msgid "ID Type Validation"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/reg_id.py:0
+#, python-format
+msgid "ID Type must be unique."
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.actions.act_window,name:g2p_registry_base.action_id_type
 #: model:ir.ui.menu,name:g2p_registry_base.menu_id_type
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_id_filter
@@ -327,8 +405,26 @@ msgid "ID Types"
 msgstr "جۆرەکانی ناسنامە"
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__id_validation
+msgid "Id Validation"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/reg_id.py:0
+#, python-format
+msgid "Id type already exists"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/reg_id.py:0
+#, python-format
+msgid "Id type should not empty."
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_needaction
-#: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_unread
 msgid "If checked, new messages require your attention."
 msgstr "سەیر بکە، پەیامە نوێیەکان سەرنجی تۆیان دەوێ."
 
@@ -339,10 +435,38 @@ msgid "If checked, some messages have a delivery error."
 msgstr "سەیر بکە، هەندێک لە پەیامەکان نەگەیشتوون."
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__income
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__income
+msgid "Income"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
+#: code:addons/g2p_registry_base/tests/test_reg_relationship.py:0
 #, python-format
 msgid "Individual"
 msgstr "تاکەکەسی"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields.selection,name:g2p_registry_base.selection__g2p_reg_id__status__invalid
+msgid "Invalid"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/registrant.py:0
+#, python-format
+msgid "Invalid mobile number!"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/phone_number.py:0
+#: code:addons/g2p_registry_base/models/registrant.py:0
+#, python-format
+msgid "Invalid phone number!"
+msgstr ""
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__name_inverse
@@ -360,18 +484,8 @@ msgid "Is Related to:"
 msgstr "پەیوەندی بە:"
 
 #. module: g2p_registry_base
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard____last_update
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type____last_update
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number____last_update
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id____last_update
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel____last_update
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags____last_update
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship____last_update
-msgid "Last Modified on"
-msgstr "دوا دەستکاریکردن لە"
-
-#. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__write_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__write_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__write_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__write_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__write_uid
@@ -383,6 +497,7 @@ msgstr "دوا نوێکردنەوە لەلایەن"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__write_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__write_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__write_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__write_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__write_date
@@ -393,9 +508,9 @@ msgid "Last Updated on"
 msgstr "دوا نوێکردنەوە لە"
 
 #. module: g2p_registry_base
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_main_attachment_id
-msgid "Main Attachment"
-msgstr "هاوپێچی سەرەکی"
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_config_settings__max_registrants_count_job_queue
+msgid "Maximum Registrants Before Using Job Queue"
+msgstr ""
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_has_error
@@ -408,6 +523,7 @@ msgid "Messages"
 msgstr "پەیامەکان"
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__name
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__name
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__id_type_as_str
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__relation_as_str
@@ -423,14 +539,19 @@ msgid "Number of Actions"
 msgstr "ژمارەی کردارەکان"
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_config_settings__batch_registrants_count_job_queue
+msgid "Number of Registrants Per Batch"
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_has_error_counter
 msgid "Number of errors"
 msgstr "ژمارەی هەڵەکان"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_needaction_counter
-msgid "Number of messages which requires an action"
-msgstr "ژمارەی ئەو پەیامانەی کە پێویستە کاریان لەسەر بکرێت"
+msgid "Number of messages requiring action"
+msgstr ""
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_has_error_counter
@@ -438,9 +559,10 @@ msgid "Number of messages with delivery error"
 msgstr "ژمارەی ئەو پەیامانەی کە نەگەیشتوون"
 
 #. module: g2p_registry_base
-#: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_unread_counter
-msgid "Number of unread messages"
-msgstr "ژمارەی پەیامە نەخوێنراوەکان"
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__occupation
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__occupation
+msgid "Occupation"
+msgstr ""
 
 #. module: g2p_registry_base
 #: model:ir.module.category,name:g2p_registry_base.openg2p_module
@@ -461,9 +583,19 @@ msgid "Phone Numbers"
 msgstr "ژماره‌ی په‌یوه‌ندی"
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_config_settings__phone_regex
+msgid "Phone Regex"
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__phone_sanitized
 msgid "Phone Sanitized"
 msgstr "تەلەفۆن پاکوخاوێن کراوە"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.openg2p_inherit_res_config_settings_view_form
+msgid "Phone number validation"
+msgstr ""
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__disabled_reason
@@ -490,6 +622,7 @@ msgid "Registrant"
 msgstr "تۆمارکەر"
 
 #. module: g2p_registry_base
+#. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
 #, python-format
 msgid "Registrant 1 and Registrant 2 cannot be the same."
@@ -632,6 +765,11 @@ msgid "Select Source..."
 msgstr "سەرچاوە هەڵبژێرە..."
 
 #. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.openg2p_inherit_res_config_settings_view_form
+msgid "Set up phone regex based on country."
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__source
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_rel_filter
 msgid "Source"
@@ -648,6 +786,31 @@ msgid "Start Date"
 msgstr "ڕێکەوتی دەستپێكردن"
 
 #. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__state_id
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_district_config_tree
+msgid "State"
+msgstr ""
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__status
+msgid "Status"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/tags.py:0
+#, python-format
+msgid "Tag already Exists"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/tags.py:0
+#, python-format
+msgid "Tag name should not empty."
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__name
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__tags_ids
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__tags_ids
@@ -655,32 +818,25 @@ msgid "Tags"
 msgstr "تاگەکان"
 
 #. module: g2p_registry_base
+#. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
 #, python-format
 msgid "The starting date cannot be after the ending date."
 msgstr "بەرواری دەستپێکردن ناتوانێت دوای بەرواری کۆتایی بێت."
 
 #. module: g2p_registry_base
+#. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
 #, python-format
 msgid "There is already a similar relation with overlapping dates"
 msgstr "لە ئێستاوە پەیوەندییەکی هاوشێوە لەگەڵ بەروارە سەریەککەوتووەکاندا هەیە"
 
 #. module: g2p_registry_base
+#. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
 #, python-format
 msgid "This registrant is not applicable for this relation type."
 msgstr "ئەم تۆمارکردنە بۆ ئەم جۆرە پەیوەندییە ناگونجێت."
-
-#. module: g2p_registry_base
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_unread
-msgid "Unread Messages"
-msgstr "پەیامی نەخوێندراو"
-
-#. module: g2p_registry_base
-#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "ژمێرەری پەیامە نەخوێندراوەکان"
 
 #. module: g2p_registry_base
 #: model:ir.module.category,description:g2p_registry_base.openg2p_module
@@ -688,6 +844,48 @@ msgid "User access level for the OpenG2P module"
 msgstr "ئاستی دەستڕاگەیشتن بە بەکارهێنەر بۆ مۆدیۆلی Open G2P"
 
 #. module: g2p_registry_base
+#: model:ir.model.fields.selection,name:g2p_registry_base.selection__g2p_reg_id__status__valid
+msgid "Valid"
+msgstr ""
+
+#. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__value
 msgid "Value"
 msgstr "بەها"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: g2p_registry_base
+#. odoo-python
+#: code:addons/g2p_registry_base/models/registrant.py:0
+#, python-format
+msgid ""
+"You do not have the necessary permissions to delete partner records. Please "
+"contact the administrator."
+msgstr ""
+
+#~ msgid "Last Modified on"
+#~ msgstr "دوا دەستکاریکردن لە"
+
+#~ msgid "Main Attachment"
+#~ msgstr "هاوپێچی سەرەکی"
+
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "ژمارەی ئەو پەیامانەی کە پێویستە کاریان لەسەر بکرێت"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "ژمارەی پەیامە نەخوێنراوەکان"
+
+#~ msgid "Unread Messages"
+#~ msgstr "پەیامی نەخوێندراو"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "ژمێرەری پەیامە نەخوێندراوەکان"
