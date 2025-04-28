@@ -8,25 +8,30 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: lo\n"
 
 #. module: g2p_bank
 #: model:ir.model,name:g2p_bank.model_res_partner_bank
 msgid "Bank Accounts"
-msgstr ""
+msgstr "ບັນຊີທະນາຄານ"
 
 #. module: g2p_bank
 #: model_terms:ir.ui.view,arch_db:g2p_bank.view_groups_form_bank_details
 #: model_terms:ir.ui.view,arch_db:g2p_bank.view_individuals_form_bank_details
 msgid "Bank Details"
-msgstr ""
+msgstr "ລາຍລະອຽດທະນາຄານ"
 
+# Review needed: Repetition (msgstr same as msgid); Missing Lao characters;
+# Kept the English acronym 'IBAN' as there is no standard Lao equivalent.
+# Human review needed to confirm this approach or suggest a Lao
+# term/transliteration.
 #. module: g2p_bank
 #: model:ir.model.fields,field_description:g2p_bank.field_account_setup_bank_manual_config__iban
 #: model:ir.model.fields,field_description:g2p_bank.field_res_partner_bank__iban
+#, fuzzy
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"

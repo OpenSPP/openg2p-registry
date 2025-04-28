@@ -8,183 +8,247 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: lo\n"
 
+# Review needed: Glossary term 'disable' found, but target 'ພິການ' missing;
+# Glossary term 'disable: ພິການ' seems incorrect for this context. Used
+# 'ປິດໃຊ້ງານ' instead, which means 'deactivate' or 'turn off'.
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_phone_number_form
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
+#, fuzzy
 msgid "<span class=\"o_stat_text\">Disable</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">ປິດໃຊ້ງານ</span>"
 
+# Review needed: Glossary term 'enable: ເຮັດໃຫ້ສາມາດ' is acceptable, but
+# 'ເປີດໃຊ້ງານ' (activate/turn on) is more standard for UI actions.
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
+#, fuzzy
 msgid "<span class=\"o_stat_text\">Enable</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">ເປີດໃຊ້ງານ</span>"
 
+# Review needed: Same review reason for 'Enable' as string #2. 'Phone No.'
+# translated as 'ເບີໂທລະສັບ'.
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_phone_number_form
+#, fuzzy
 msgid ""
 "<span class=\"o_stat_text\">Enable</span>\n"
 "                                <span class=\"o_stat_text\">Phone No.</span>"
 msgstr ""
+"<span class=\"o_stat_text\">ເປີດໃຊ້ງານ</span> <span "
+"class=\"o_stat_text\">ເບີໂທລະສັບ</span>"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "ຕ້ອງການດຳເນີນການ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__active
 msgid "Active"
-msgstr ""
+msgstr "ດໍາເນີນຢູ່"
 
+# Review needed: Terms 'registrant' (ຜູ້ລົງທະບຽນ) and 'relationship'
+# (ຄວາມສຳພັນ) are not in the glossary. Translation is based on common usage.
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_reg_rel
+#, fuzzy
 msgid "Add a Registrant Relationship!"
-msgstr ""
+msgstr "ເພີ່ມຄວາມສຳພັນຂອງຜູ້ລົງທະບຽນ!"
 
+# Review needed: Terms 'registrant' (ຜູ້ລົງທະບຽນ) and 'ID' (ລະຫັດ) are not in
+# the glossary. Translation is based on common usage.
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_reg_id
+#, fuzzy
 msgid "Add a Registrant's ID!"
-msgstr ""
+msgstr "ເພີ່ມລະຫັດຂອງຜູ້ລົງທະບຽນ!"
 
+# Review needed: Terms 'registrant' (ຜູ້ລົງທະບຽນ) and 'Phone Number'
+# (ເບີໂທລະສັບ) are not in the glossary. Translation is based on common usage.
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_phone_number
+#, fuzzy
 msgid "Add a Registrant's Phone Number!"
-msgstr ""
+msgstr "ເພີ່ມເບີໂທລະສັບຂອງຜູ້ລົງທະບຽນ!"
 
+# Review needed: Term 'registrant' (ຜູ້ລົງທະບຽນ) is not in the glossary.
+# Translation is based on common usage.
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_registrant_tags
+#, fuzzy
 msgid "Add a Registrant's Tags!"
-msgstr ""
+msgstr "ເພີ່ມປ້າຍກຳກັບຂອງຜູ້ລົງທະບຽນ!"
 
+# Review needed: Term 'relationship' (ຄວາມສຳພັນ) is not in the glossary.
+# Translation is based on common usage.
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_relationship
+#, fuzzy
 msgid "Add a Relationship!"
-msgstr ""
+msgstr "ເພີ່ມຄວາມສຳພັນ!"
 
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_district_config
 msgid "Add a district!"
-msgstr ""
+msgstr "ເພີ່ມເມືອງ!"
 
+# Review needed: Term 'ID Type' (ປະເພດລະຫັດ) is not in the glossary.
+# Translation is based on common usage.
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_id_type
+#, fuzzy
 msgid "Add an ID Type!"
-msgstr ""
+msgstr "ເພີ່ມປະເພດລະຫັດ!"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__address
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__address
 msgid "Address"
-msgstr ""
+msgstr "ທີ່ຢູ່"
 
+# Review needed: Term 'Administrator' not in glossary. Used common translation
+# 'ຜູ້ບໍລິຫານ'.
 #. module: g2p_registry_base
 #: model:res.groups,name:g2p_registry_base.group_g2p_admin
+#, fuzzy
 msgid "Administrator"
-msgstr ""
+msgstr "ຜູ້ບໍລິຫານ"
 
+# Review needed: Term 'RegistrantTag' not in glossary, translated
+# compositionally. 'Archive' translation based on 'archived'.
 #. module: g2p_registry_base
 #: model:ir.model.fields,help:g2p_registry_base.field_g2p_registrant_tags__active
+#, fuzzy
 msgid "Archive to hide the RegistrantTag without removing it."
-msgstr ""
+msgstr "ເກັບຮັກສາເພື່ອເຊື່ອງປ້າຍກຳກັບຜູ້ລົງທະບຽນໂດຍບໍ່ຕ້ອງລຶບອອກ."
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.registrant_tags_filter
 msgid "Archived"
-msgstr ""
+msgstr "ເກັບຮັກສາ"
 
+# Review needed: Glossary term 'attachments:: ການຕິດຂັດແຟ້ມ' doesn't fit well
+# for a count field. Used 'ຈຳນວນໄຟລ໌ແນບ'.
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_attachment_count
+#, fuzzy
 msgid "Attachment Count"
-msgstr ""
+msgstr "ຈຳນວນໄຟລ໌ແນບ"
 
+# Review needed: Term 'Bi-directional' not in glossary. Used 'ສອງທິດທາງ'.
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__bidirectional
+#, fuzzy
 msgid "Bi-directional"
-msgstr ""
+msgstr "ສອງທິດທາງ"
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.disable_registrant_wizard_form_view
 msgid "Cancel"
-msgstr ""
+msgstr "ຍົກເລີກ"
 
+# Review needed: Glossary term 'state' found, but target 'ລັດ' missing; Term
+# 'CivilState' not in glossary, likely means 'Civil Status'. Translated as
+# 'ສະຖານະພາບ'.
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__civil_status
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__civil_status
+#, fuzzy
 msgid "CivilState"
-msgstr ""
+msgstr "ສະຖານະພາບ"
 
+# Review needed: Term 'ID type' not in glossary.
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_id_type
+#, fuzzy
 msgid "Click the create button to enter a new ID type."
-msgstr ""
+msgstr "ກົດປຸ່ມສ້າງເພື່ອປ້ອນປະເພດລະຫັດໃໝ່."
 
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_district_config
 msgid "Click the create button to enter a new district."
-msgstr ""
+msgstr "ກົດປຸ່ມສ້າງເພື່ອປ້ອນເມືອງໃໝ່."
 
+# Review needed: Term 'relationship' not in glossary.
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_relationship
+#, fuzzy
 msgid "Click the create button to enter a new relationship."
-msgstr ""
+msgstr "ກົດປຸ່ມສ້າງເພື່ອປ້ອນຄວາມສຳພັນໃໝ່."
 
+# Review needed: Terms 'registrant' and 'phone number' not in glossary.
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_phone_number
+#, fuzzy
 msgid "Click the create button to enter a registrant's phone number."
-msgstr ""
+msgstr "ກົດປຸ່ມສ້າງເພື່ອປ້ອນເບີໂທລະສັບຂອງຜູ້ລົງທະບຽນ."
 
+# Review needed: Terms 'registrant' and 'ID' not in glossary.
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_reg_id
+#, fuzzy
 msgid "Click the create button to enter the new registrant's ID information."
-msgstr ""
+msgstr "ກົດປຸ່ມສ້າງເພື່ອປ້ອນຂໍ້ມູນລະຫັດຂອງຜູ້ລົງທະບຽນໃໝ່."
 
+# Review needed: Term 'registrant' not in glossary.
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_registrant_tags
-msgid "Click the create button to enter the new registrant's Tags information."
-msgstr ""
+#, fuzzy
+msgid ""
+"Click the create button to enter the new registrant's Tags information."
+msgstr "ກົດປຸ່ມສ້າງເພື່ອປ້ອນຂໍ້ມູນປ້າຍກຳກັບຂອງຜູ້ລົງທະບຽນໃໝ່."
 
+# Review needed: Terms 'registrant' and 'relationship' not in glossary.
 #. module: g2p_registry_base
 #: model_terms:ir.actions.act_window,help:g2p_registry_base.action_reg_rel
+#, fuzzy
 msgid ""
 "Click the create button to enter the new registrant's relationship "
 "information."
-msgstr ""
+msgstr "ກົດປຸ່ມສ້າງເພື່ອປ້ອນຂໍ້ມູນຄວາມສຳພັນຂອງຜູ້ລົງທະບຽນໃໝ່."
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__color
 msgid "Color"
-msgstr ""
+msgstr "ສີ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__company_id
 msgid "Company"
-msgstr ""
+msgstr "ບໍລິສັດ"
 
+# Review needed: 'Config' derived from 'Configuration'. Used 'ການຕັ້ງຄ່າ' for
+# simplicity, which is common for settings menus/models.
 #. module: g2p_registry_base
 #: model:ir.model,name:g2p_registry_base.model_res_config_settings
+#, fuzzy
 msgid "Config Settings"
-msgstr ""
+msgstr "ການຕັ້ງຄ່າ"
 
+# Review needed: Glossary has complex translations for 'configuration'. Used
+# 'ການຕັ້ງຄ່າ' which is standard for configuration menus.
 #. module: g2p_registry_base
 #: model:ir.ui.menu,name:g2p_registry_base.g2p_configuration_menu_root
+#, fuzzy
 msgid "Configuration"
-msgstr ""
+msgstr "ການຕັ້ງຄ່າ"
 
 #. module: g2p_registry_base
 #: model:ir.model,name:g2p_registry_base.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "ຕິດຕໍ່ພົວພັນ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__country_id
 msgid "Country"
-msgstr ""
+msgstr "ປະເທດ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__create_uid
@@ -196,7 +260,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__create_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "ສ້າງໂດຍ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__create_date
@@ -208,78 +272,103 @@ msgstr ""
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__create_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__create_date
 msgid "Created on"
-msgstr ""
+msgstr "ສ້າງຂຶ້ນເມື່ອ"
 
+# Review needed: 'Management' derived from 'financial management'.
 #. module: g2p_registry_base
 #: model:ir.ui.menu,name:g2p_registry_base.g2p_data_mgmt_menu_root
+#, fuzzy
 msgid "Data Management"
-msgstr ""
+msgstr "ການຈັດການຂໍ້ມູນ"
 
+# Review needed: 'Collected' derived from 'collect'.
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__date_collected
+#, fuzzy
 msgid "Date Collected"
-msgstr ""
+msgstr "ວັນທີເກັບກຳ"
 
+# Review needed: Glossary term 'disable' found, but target 'ພິການ' missing;
+# Glossary term 'disabled' found, but target 'ພິການ' missing; Glossary term
+# 'disabled: ພິການ' is incorrect. Used 'ປິດໃຊ້ງານ' (deactivated).
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__disabled
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__disabled
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__disabled
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__disabled
+#, fuzzy
 msgid "Date Disabled"
-msgstr ""
+msgstr "ວັນທີປິດໃຊ້ງານ"
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
 msgid "Date Range"
-msgstr ""
+msgstr "ຊ່ວງວັນທີ"
 
+# Review needed: Term 'future' not in glossary.
 #. module: g2p_registry_base
 #. odoo-python
 #: code:addons/g2p_registry_base/models/phone_number.py:0
-#, python-format
+#, python-format, fuzzy
 msgid "Date collected cannot be in the future."
-msgstr ""
+msgstr "ວັນທີເກັບກຳຂໍ້ມູນບໍ່ສາມາດເປັນວັນທີໃນອະນາຄົດໄດ້."
 
+# Review needed: Glossary term 'ການ​ອະ​ທິ​ຍາຍ​' is correct but 'ລາຍລະອຽດ'
+# (Details) is more common for description fields in UI.
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__description
+#, fuzzy
 msgid "Description"
-msgstr ""
+msgstr "ລາຍລະອຽດ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__destination
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_rel_filter
 msgid "Destination"
-msgstr ""
+msgstr "ປາຍທາງ"
 
+# Review needed: Term 'partner' not in glossary.
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__destination_type
+#, fuzzy
 msgid "Destination partner type"
-msgstr ""
+msgstr "ປະເພດຄູ່ຮ່ວມປາຍທາງ"
 
 #. module: g2p_registry_base
 #: model:ir.actions.act_window,name:g2p_registry_base.action_disable_registrant_wizard
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.disable_registrant_wizard_form_view
 msgid "Disable"
-msgstr ""
+msgstr "ພິການ"
 
+# Review needed: Glossary term 'disable' found, but target 'ພິການ' missing;
+# Glossary term 'disable: ພິການ' is incorrect. Used 'ປິດໃຊ້ງານ' (deactivated).
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_phone_number_form
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
+#, fuzzy
 msgid "Disable Info"
-msgstr ""
+msgstr "ຂໍ້ມູນການປິດໃຊ້ງານ"
 
+# Review needed: Glossary term 'disable' found, but target 'ພິການ' missing;
+# Glossary term 'disable: ພິການ' is incorrect. Term 'registrant' not in
+# glossary.
 #. module: g2p_registry_base
 #: model:ir.model,name:g2p_registry_base.model_g2p_disable_registrant_wizard
+#, fuzzy
 msgid "Disable Registrant Wizard"
-msgstr ""
+msgstr "ຕົວຊ່ວຍປິດໃຊ້ງານຜູ້ລົງທະບຽນ"
 
+# Review needed: Glossary term 'disable' found, but target 'ພິການ' missing;
+# Glossary term 'disabled' found, but target 'ພິການ' missing; Glossary term
+# 'disabled: ພິການ' is incorrect. Used 'ປິດໃຊ້ງານ' (deactivated).
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__disabled_by
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__disabled_by
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__disabled_by
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__disabled_by
+#, fuzzy
 msgid "Disabled By"
-msgstr ""
+msgstr "ປິດໃຊ້ງານໂດຍ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__display_name
@@ -291,49 +380,67 @@ msgstr ""
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__display_name
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "ຊື່ສະແດງ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__district
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__district
 msgid "District"
-msgstr ""
+msgstr "ເມືອງ"
 
+# Review needed: Used 'ການຕັ້ງຄ່າ' for 'Configuration' for consistency with
+# #28, #29.
 #. module: g2p_registry_base
 #: model:ir.actions.act_window,name:g2p_registry_base.action_district_config
 #: model:ir.ui.menu,name:g2p_registry_base.menu_district_config
+#, fuzzy
 msgid "District Configuration"
-msgstr ""
+msgstr "ການຕັ້ງຄ່າເມືອງ"
 
+# Review needed: Glossary uses 'ມື້ສິ້ນສຸດ', but 'ວັນທີສິ້ນສຸດ' is more
+# standard for 'End Date' field labels.
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__end_date
+#, fuzzy
 msgid "End Date"
-msgstr ""
+msgstr "ວັນທີສິ້ນສຸດ"
 
+# Review needed: Glossary uses 'ວັນ​ຫມົດ​ອາ​ຍຸ', but 'ວັນທີໝົດອາຍຸ' is more
+# standard for 'Expiry Date' field labels.
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__expiry_date
+#, fuzzy
 msgid "Expiry Date"
-msgstr ""
+msgstr "ວັນທີໝົດອາຍຸ"
 
+# Review needed: Term 'Followers' not in glossary. Used common Odoo
+# translation 'ຜູ້ຕິດຕາມ'.
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_follower_ids
+#, fuzzy
 msgid "Followers"
-msgstr ""
+msgstr "ຜູ້ຕິດຕາມ"
 
+# Review needed: Term 'Partners' not in glossary.
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_partner_ids
+#, fuzzy
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຮ່ວມງານ)"
 
 #. module: g2p_registry_base
 #: model:ir.model,name:g2p_registry_base.model_g2p_district
 msgid "G2P District"
-msgstr ""
+msgstr "ເມືອງ G2P"
 
+# Review needed: Glossary term 'registry' found, but target 'ການລົງທະບຽນ'
+# missing; Confirming the best Lao term for 'Registry' in the G2P context.
+# 'ຖານຂໍ້ມູນຜູ້ລົງທະບຽນ' is a descriptive option.
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.openg2p_inherit_res_config_settings_view_form
+#, fuzzy
 msgid "G2P Registry Settings"
-msgstr ""
+msgstr "ການຕັ້ງຄ່າຖານຂໍ້ມູນຜູ້ລົງທະບຽນ G2P"
 
 #. module: g2p_registry_base
 #. odoo-python
@@ -343,19 +450,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__is_group
 #, python-format
 msgid "Group"
-msgstr ""
+msgstr "ກຸ່ມ"
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.phone_number_filter
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_id_filter
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_rel_filter
 msgid "Group By"
-msgstr ""
+msgstr "ຈັດກຸ່ມດ້ວຍ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "ມີຂໍ້ຄວາມ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__id
@@ -367,68 +474,70 @@ msgstr ""
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__id
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__id
 msgid "ID"
-msgstr ""
+msgstr "ລະຫັດ"
 
 #. module: g2p_registry_base
 #: model:ir.model,name:g2p_registry_base.model_g2p_id_type
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__id_type
 msgid "ID Type"
-msgstr ""
+msgstr "ຊະນິດລະຫັດ"
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_id_type_tree
 msgid "ID Type Validation"
-msgstr ""
+msgstr "ການກວດສອບຄວາມຖືກຕ້ອງຂອງຊະນິດລະຫັດ"
 
 #. module: g2p_registry_base
 #. odoo-python
 #: code:addons/g2p_registry_base/models/reg_id.py:0
 #, python-format
 msgid "ID Type must be unique."
-msgstr ""
+msgstr "ຊະນິດລະຫັດຕ້ອງບໍ່ຊ້ຳກັນ."
 
 #. module: g2p_registry_base
 #: model:ir.actions.act_window,name:g2p_registry_base.action_id_type
 #: model:ir.ui.menu,name:g2p_registry_base.menu_id_type
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_id_filter
 msgid "ID Types"
-msgstr ""
+msgstr "ຊະນິດລະຫັດ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__id_validation
 msgid "Id Validation"
-msgstr ""
+msgstr "ການກວດສອບຄວາມຖືກຕ້ອງຂອງລະຫັດ"
 
 #. module: g2p_registry_base
 #. odoo-python
 #: code:addons/g2p_registry_base/models/reg_id.py:0
 #, python-format
 msgid "Id type already exists"
-msgstr ""
+msgstr "ຊະນິດລະຫັດນີ້ມີຢູ່ແລ້ວ."
 
+# Review needed: Check for natural phrasing of the validation error.
+# 'ກະລຸນາລະບຸຊະນິດລະຫັດ.' might be a more user-friendly alternative.
 #. module: g2p_registry_base
 #. odoo-python
 #: code:addons/g2p_registry_base/models/reg_id.py:0
-#, python-format
+#, python-format, fuzzy
 msgid "Id type should not empty."
-msgstr ""
+msgstr "ຊະນິດລະຫັດບໍ່ຄວນຫວ່າງເປົ່າ."
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "ຖ້າໝາຍຖືກ, ຂໍ້ຄວາມໃໝ່ຕ້ອງການຄວາມສົນໃຈຈາກທ່ານ."
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_has_error
 #: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "ຖ້າໝາຍຖືກ, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການນຳສົ່ງ."
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__income
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__income
 msgid "Income"
-msgstr ""
+msgstr "ລາຍໄດ້"
 
 #. module: g2p_registry_base
 #. odoo-python
@@ -436,19 +545,19 @@ msgstr ""
 #: code:addons/g2p_registry_base/tests/test_reg_relationship.py:0
 #, python-format
 msgid "Individual"
-msgstr ""
+msgstr "ບຸກຄົນ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields.selection,name:g2p_registry_base.selection__g2p_reg_id__status__invalid
 msgid "Invalid"
-msgstr ""
+msgstr "ບໍ່ຖືກຕ້ອງ"
 
 #. module: g2p_registry_base
 #. odoo-python
 #: code:addons/g2p_registry_base/models/registrant.py:0
 #, python-format
 msgid "Invalid mobile number!"
-msgstr ""
+msgstr "ເບີໂທລະສັບມືຖືບໍ່ຖືກຕ້ອງ!"
 
 #. module: g2p_registry_base
 #. odoo-python
@@ -456,23 +565,25 @@ msgstr ""
 #: code:addons/g2p_registry_base/models/registrant.py:0
 #, python-format
 msgid "Invalid phone number!"
-msgstr ""
+msgstr "ເບີໂທລະສັບບໍ່ຖືກຕ້ອງ!"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__name_inverse
 msgid "Inverse name"
-msgstr ""
+msgstr "ຊື່ກົງກັນຂ້າມ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "ເປັນຜູ້ຕິດຕາມ"
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
 msgid "Is Related to:"
-msgstr ""
+msgstr "ກ່ຽວຂ້ອງກັບ:"
 
+# Review needed: Glossary term 'updated' found, but target 'ອັບເດດແລ້ວ'
+# missing
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__write_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__write_uid
@@ -482,9 +593,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__write_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__write_uid
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__write_uid
+#, fuzzy
 msgid "Last Updated by"
-msgstr ""
+msgstr "ປັບປຸງລ່າສຸດໂດຍ"
 
+# Review needed: Glossary term 'updated' found, but target 'ອັບເດດແລ້ວ'
+# missing
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__write_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__write_date
@@ -494,23 +608,27 @@ msgstr ""
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__write_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__write_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__write_date
+#, fuzzy
 msgid "Last Updated on"
-msgstr ""
+msgstr "ປັບປຸງລ່າສຸດເມື່ອ"
 
+# Review needed: Confirm if 'Job Queue' should be translated or kept in
+# English as it is a technical term.
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_config_settings__max_registrants_count_job_queue
+#, fuzzy
 msgid "Maximum Registrants Before Using Job Queue"
-msgstr ""
+msgstr "ຈຳນວນຜູ້ລົງທະບຽນສູງສຸດກ່ອນນຳໃຊ້ Job Queue"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "ຂໍ້ຜິດພາດໃນການນຳສົ່ງຂໍ້ຄວາມ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "ຂໍ້ຄວາມ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__name
@@ -521,83 +639,92 @@ msgstr ""
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__name
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__name
 msgid "Name"
-msgstr ""
+msgstr "ຊື່"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "ຈຳນວນການກະທຳ"
 
+# Review needed: Confirm if 'Batch' should be translated or kept in English as
+# it is a technical term.
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_config_settings__batch_registrants_count_job_queue
+#, fuzzy
 msgid "Number of Registrants Per Batch"
-msgstr ""
+msgstr "ຈຳນວນຜູ້ລົງທະບຽນຕໍ່ Batch"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງການການກະທຳ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການນຳສົ່ງ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__occupation
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__occupation
 msgid "Occupation"
-msgstr ""
+msgstr "ອາຊີບ"
 
 #. module: g2p_registry_base
 #: model:ir.module.category,name:g2p_registry_base.openg2p_module
 msgid "OpenG2P Module Access"
-msgstr ""
+msgstr "ການເຂົ້າເຖິງໂມດູລ OpenG2P"
 
 #. module: g2p_registry_base
 #: model:ir.model,name:g2p_registry_base.model_g2p_phone_number
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__phone_no
 msgid "Phone Number"
-msgstr ""
+msgstr "ເບີໂທລະສັບ"
 
 #. module: g2p_registry_base
 #: model:ir.actions.act_window,name:g2p_registry_base.action_phone_number
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__phone_number_ids
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__phone_number_ids
 msgid "Phone Numbers"
-msgstr ""
+msgstr "ເບີໂທລະສັບ"
 
+# Review needed: Confirm if 'Regex' (Regular Expression) should be translated
+# or kept in English as it is a technical term.
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_config_settings__phone_regex
+#, fuzzy
 msgid "Phone Regex"
-msgstr ""
+msgstr "Regex ໂທລະສັບ"
 
+# Review needed: Confirm the best way to express 'Sanitized' in this context.
+# 'ທີ່ຈັດຮູບແບບແລ້ວ' (formatted) is proposed.
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__phone_sanitized
+#, fuzzy
 msgid "Phone Sanitized"
-msgstr ""
+msgstr "ເບີໂທລະສັບທີ່ຈັດຮູບແບບແລ້ວ"
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.openg2p_inherit_res_config_settings_view_form
 msgid "Phone number validation"
-msgstr ""
+msgstr "ການກວດສອບຄວາມຖືກຕ້ອງຂອງເບີໂທລະສັບ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__disabled_reason
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__disabled_reason
 msgid "Reason for Disabling"
-msgstr ""
+msgstr "ເຫດຜົນໃນການປິດໃຊ້ງານ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__disabled_reason
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.disable_registrant_wizard_form_view
 msgid "Reason for disabling"
-msgstr ""
+msgstr "ເຫດຜົນໃນການປິດໃຊ້ງານ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__partner_id
@@ -609,255 +736,266 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_id_filter
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_rel_filter
 msgid "Registrant"
-msgstr ""
+msgstr "ຜູ້ລົງທະບຽນ"
 
 #. module: g2p_registry_base
 #. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
 #, python-format
 msgid "Registrant 1 and Registrant 2 cannot be the same."
-msgstr ""
+msgstr "ຜູ້ລົງທະບຽນ 1 ແລະ ຜູ້ລົງທະບຽນ 2 ບໍ່ສາມາດເປັນຄົນດຽວກັນ."
 
 #. module: g2p_registry_base
 #: model:ir.model,name:g2p_registry_base.model_g2p_reg_id
 msgid "Registrant ID"
-msgstr ""
+msgstr "ລະຫັດຜູ້ລົງທະບຽນ"
 
 #. module: g2p_registry_base
 #: model:ir.actions.act_window,name:g2p_registry_base.action_reg_id
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__reg_ids
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__reg_ids
 msgid "Registrant IDs"
-msgstr ""
+msgstr "ລະຫັດຜູ້ລົງທະບຽນ"
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_phone_number_form
 msgid "Registrant Phone Number"
-msgstr ""
+msgstr "ເບີໂທລະສັບຜູ້ລົງທະບຽນ"
 
 #. module: g2p_registry_base
 #: model:ir.model,name:g2p_registry_base.model_g2p_reg_rel
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
 msgid "Registrant Relationship"
-msgstr ""
+msgstr "ຄວາມສຳພັນຂອງຜູ້ລົງທະບຽນ"
 
 #. module: g2p_registry_base
 #: model:ir.actions.act_window,name:g2p_registry_base.action_reg_rel
 msgid "Registrant Relationships"
-msgstr ""
+msgstr "ຄວາມສຳພັນຂອງຜູ້ລົງທະບຽນ"
 
 #. module: g2p_registry_base
 #: model:ir.actions.act_window,name:g2p_registry_base.action_registrant_tags
 #: model:ir.model,name:g2p_registry_base.model_g2p_registrant_tags
 #: model:ir.ui.menu,name:g2p_registry_base.menu_registrant_tags
 msgid "Registrant Tags"
-msgstr ""
+msgstr "ປ້າຍກຳກັບຜູ້ລົງທະບຽນ"
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_phone_number_form
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
 msgid "Registrant:"
-msgstr ""
+msgstr "ຜູ້ລົງທະບຽນ:"
 
 #. module: g2p_registry_base
 #: model:res.groups,name:g2p_registry_base.group_g2p_registrar
 msgid "Registrar"
-msgstr ""
+msgstr "ຜູ້ລົງທະບຽນ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__registration_date
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__registration_date
 msgid "Registration Date"
-msgstr ""
+msgstr "ວັນທີລົງທະບຽນ"
 
 #. module: g2p_registry_base
 #: model:ir.ui.menu,name:g2p_registry_base.g2p_main_menu_root
 msgid "Registry"
-msgstr ""
+msgstr "ການລົງທະບຽນ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__related_1_ids
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__related_1_ids
 msgid "Related to registrant 1"
-msgstr ""
+msgstr "ກ່ຽວຂ້ອງກັບຜູ້ລົງທະບຽນ 1"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__related_2_ids
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__related_2_ids
 msgid "Related to registrant 2"
-msgstr ""
+msgstr "ກ່ຽວຂ້ອງກັບຜູ້ລົງທະບຽນ 2"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__relation
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_rel_filter
 msgid "Relation"
-msgstr ""
+msgstr "ຄວາມສຳພັນ"
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
 msgid "Relation:"
-msgstr ""
+msgstr "ຄວາມສຳພັນ:"
 
 #. module: g2p_registry_base
 #: model:ir.actions.act_window,name:g2p_registry_base.action_relationship
 #: model:ir.model,name:g2p_registry_base.model_g2p_relationship
 msgid "Relationship"
-msgstr ""
+msgstr "ຄວາມສຳພັນ"
 
+# Review needed: Plural form. While "ຄວາມສຳພັນ" is grammatically acceptable
+# for plural, "ລາຍການຄວາມສຳພັນ" might be clearer for a menu item.
 #. module: g2p_registry_base
 #: model:ir.ui.menu,name:g2p_registry_base.menu_relationship
+#, fuzzy
 msgid "Relationships"
-msgstr ""
+msgstr "ຄວາມສຳພັນ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr ""
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງ SMS"
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.phone_number_filter
 msgid "Search Phone Number"
-msgstr ""
+msgstr "ຄົ້ນຫາເບີໂທລະສັບ"
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_id_filter
 msgid "Search Registrant IDs"
-msgstr ""
+msgstr "ຄົ້ນຫາລະຫັດຜູ້ລົງທະບຽນ"
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_rel_filter
 msgid "Search Registrant Relationships"
-msgstr ""
+msgstr "ຄົ້ນຫາຄວາມສຳພັນຂອງຜູ້ລົງທະບຽນ"
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.registrant_tags_filter
 msgid "Search Registrant Tags"
-msgstr ""
+msgstr "ຄົ້ນຫາປ້າຍກຳກັບຜູ້ລົງທະບຽນ"
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
 msgid "Select Destination..."
-msgstr ""
+msgstr "ເລືອກປາຍທາງ..."
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_phone_number_form
 msgid "Select Registrant..."
-msgstr ""
+msgstr "ເລືອກຜູ້ລົງທະບຽນ..."
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
 msgid "Select Relationship..."
-msgstr ""
+msgstr "ເລືອກຄວາມສຳພັນ..."
 
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
 msgid "Select Source..."
-msgstr ""
+msgstr "ເລືອກແຫຼ່ງ..."
 
+# Review needed: Technical term "regex" used. Confirmation needed if this is
+# acceptable or if a descriptive translation is better.
 #. module: g2p_registry_base
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.openg2p_inherit_res_config_settings_view_form
+#, fuzzy
 msgid "Set up phone regex based on country."
-msgstr ""
+msgstr "ຕັ້ງຄ່າ regex ຂອງໂທລະສັບໂດຍອີງຕາມປະເທດ."
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__source
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_rel_filter
 msgid "Source"
-msgstr ""
+msgstr "ແຫຼ່ງ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__source_type
 msgid "Source partner type"
-msgstr ""
+msgstr "ປະເພດຄູ່ຮ່ວມແຫຼ່ງ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__start_date
 msgid "Start Date"
-msgstr ""
+msgstr "ວັນທີເລີ່ມຕົ້ນ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__state_id
 #: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_district_config_tree
 msgid "State"
-msgstr ""
+msgstr "ລັດ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__status
 msgid "Status"
-msgstr ""
+msgstr "ສະຖານະ"
 
 #. module: g2p_registry_base
 #. odoo-python
 #: code:addons/g2p_registry_base/models/tags.py:0
 #, python-format
 msgid "Tag already Exists"
-msgstr ""
+msgstr "ປ້າຍກຳກັບນີ້ມີຢູ່ແລ້ວ"
 
+# Review needed: Direct translation might sound slightly unnatural.
+# "ກະລຸນາປ້ອນຊື່ປ້າຍກຳກັບ." (Please enter tag name) might be preferred.
 #. module: g2p_registry_base
 #. odoo-python
 #: code:addons/g2p_registry_base/models/tags.py:0
-#, python-format
+#, python-format, fuzzy
 msgid "Tag name should not empty."
-msgstr ""
+msgstr "ຊື່ປ້າຍກຳກັບຕ້ອງບໍ່ຫວ່າງເປົ່າ."
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__name
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__tags_ids
 #: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__tags_ids
 msgid "Tags"
-msgstr ""
+msgstr "ປ້າຍກຳກັບ"
 
 #. module: g2p_registry_base
 #. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
 #, python-format
 msgid "The starting date cannot be after the ending date."
-msgstr ""
+msgstr "ວັນທີເລີ່ມຕົ້ນຕ້ອງບໍ່ຢູ່ຫຼັງວັນທີສິ້ນສຸດ."
 
 #. module: g2p_registry_base
 #. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
 #, python-format
 msgid "There is already a similar relation with overlapping dates"
-msgstr ""
+msgstr "ມີຄວາມສຳພັນທີ່ຄ້າຍຄືກັນຢູ່ແລ້ວເຊິ່ງມີວັນທີຊ້ອນກັນ"
 
 #. module: g2p_registry_base
 #. odoo-python
 #: code:addons/g2p_registry_base/models/reg_relationship.py:0
 #, python-format
 msgid "This registrant is not applicable for this relation type."
-msgstr ""
+msgstr "ຜູ້ລົງທະບຽນນີ້ບໍ່ສາມາດນຳໃຊ້ກັບປະເພດຄວາມສຳພັນນີ້ໄດ້."
 
 #. module: g2p_registry_base
 #: model:ir.module.category,description:g2p_registry_base.openg2p_module
 msgid "User access level for the OpenG2P module"
-msgstr ""
+msgstr "ລະດັບການເຂົ້າເຖິງຂອງຜູ້ໃຊ້ສຳລັບໂມດູນ OpenG2P"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields.selection,name:g2p_registry_base.selection__g2p_reg_id__status__valid
 msgid "Valid"
-msgstr ""
+msgstr "ໃຊ້ໄດ້"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__value
 msgid "Value"
-msgstr ""
+msgstr "ຄ່າ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "ຂໍ້ຄວາມເວັບໄຊ"
 
 #. module: g2p_registry_base
 #: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "ປະຫວັດການຕິດຕໍ່ຜ່ານເວັບໄຊ"
 
+# Review needed: Glossary term 'contact' found, but target 'ຕິດຕໍ່ພົວພັນ'
+# missing
 #. module: g2p_registry_base
 #. odoo-python
 #: code:addons/g2p_registry_base/models/registrant.py:0
-#, python-format
+#, python-format, fuzzy
 msgid ""
 "You do not have the necessary permissions to delete partner records. Please "
 "contact the administrator."
 msgstr ""
+"ທ່ານບໍ່ມີສິດທີ່ຈຳເປັນໃນການລຶບບັນທຶກຄູ່ຮ່ວມ. ກະລຸນາຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບ."

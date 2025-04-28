@@ -8,226 +8,241 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: lo\n"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.actions.act_window,help:g2p_registry_membership.action_group_membership_kind
 msgid "Add a group membership kind!"
-msgstr ""
+msgstr "ເພີ່ມຊະນິດສະມາຊິກກຸ່ມ!"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.actions.act_window,help:g2p_registry_membership.action_group_membership
 msgid "Add an individual to a group!"
-msgstr ""
+msgstr "ເພີ່ມບຸກຄົນໃສ່ກຸ່ມ!"
 
 #. module: g2p_registry_membership
 #. odoo-python
 #: code:addons/g2p_registry_membership/models/group_membership.py:0
 #, python-format
 msgid "Can't delete default kinds"
-msgstr ""
+msgstr "ບໍ່ສາມາດລຶບຊະນິດຄ່າເລີ່ມຕົ້ນໄດ້"
 
 #. module: g2p_registry_membership
 #. odoo-python
 #: code:addons/g2p_registry_membership/models/group_membership.py:0
 #, python-format
 msgid "Can't edit default kinds"
-msgstr ""
+msgstr "ບໍ່ສາມາດແກ້ໄຂຊະນິດຄ່າເລີ່ມຕົ້ນໄດ້"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.actions.act_window,help:g2p_registry_membership.action_group_membership
 msgid "Click the create button to enter the new group information."
-msgstr ""
+msgstr "ກົດປຸ່ມສ້າງເພື່ອປ້ອນຂໍ້ມູນກຸ່ມໃໝ່."
 
 #. module: g2p_registry_membership
 #: model_terms:ir.actions.act_window,help:g2p_registry_membership.action_group_membership_kind
 msgid "Click the create button to enter the new group membership kind."
-msgstr ""
+msgstr "ກົດປຸ່ມສ້າງເພື່ອປ້ອນຊະນິດສະມາຊິກກຸ່ມໃໝ່."
 
 #. module: g2p_registry_membership
 #: model:ir.model,name:g2p_registry_membership.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "ຕິດຕໍ່ພົວພັນ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__create_uid
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "ສ້າງໂດຍ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__create_date
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__create_date
 msgid "Created on"
-msgstr ""
+msgstr "ສ້າງຂຶ້ນເມື່ອ"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_group_membership_form
 msgid "Date Range"
-msgstr ""
+msgstr "ຊ່ວງວັນທີ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__individual_birthdate
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_groups_form_membership
 msgid "Date of Birth"
-msgstr ""
+msgstr "ວັນເດືອນປີເກີດ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__display_name
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "ຊື່ສະແດງ"
 
+# Review needed: The phrasing 'Duplication of Member' might be better
+# translated in context, ensuring it means 'a member cannot be added twice'
+# rather than 'copying a member'.
 #. module: g2p_registry_membership
 #. odoo-python
 #: code:addons/g2p_registry_membership/models/group_membership.py:0
-#, python-format
+#, python-format, fuzzy
 msgid "Duplication of Member is not allowed "
-msgstr ""
+msgstr "ບໍ່ອະນຸຍາດໃຫ້ມີສະມາຊິກຊ້ຳກັນ"
 
 #. module: g2p_registry_membership
 #. odoo-python
 #: code:addons/g2p_registry_membership/models/group_membership.py:0
 #, python-format
 msgid "End Date cannot be earlier than Start Date"
-msgstr ""
+msgstr "ວັນທີສິ້ນສຸດບໍ່ສາມາດກ່ອນວັນທີເລີ່ມຕົ້ນໄດ້"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_groups_form_membership
 msgid "End date"
-msgstr ""
+msgstr "ວັນທີສິ້ນສຸດ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__ended_date
 msgid "Ended Date"
-msgstr ""
+msgstr "ວັນທີສິ້ນສຸດ"
 
+# Review needed: Technical term 'Canary' (likely referring to canary
+# deployment/testing) is untranslated. Needs confirmation if this literal
+# translation is acceptable or if the term should remain in English or be
+# explained differently in Lao.
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_res_partner__force_recompute_canary
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_res_users__force_recompute_canary
+#, fuzzy
 msgid "Force Recompute Canary"
-msgstr ""
+msgstr "ບັງຄັບຄຳນວນຄືນ Canary"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__individual_gender
 msgid "Gender"
-msgstr ""
+msgstr "ເພດ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.group_membership_filter
 msgid "Group"
-msgstr ""
+msgstr "ກຸ່ມ"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.group_membership_filter
 msgid "Group By"
-msgstr ""
+msgstr "ຈັດກຸ່ມໂດຍ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_res_partner__group_membership_ids
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_res_users__group_membership_ids
 msgid "Group Members"
-msgstr ""
+msgstr "ສະມາຊິກກຸ່ມ"
 
 #. module: g2p_registry_membership
 #: model:ir.actions.act_window,name:g2p_registry_membership.action_group_membership
 #: model:ir.model,name:g2p_registry_membership.model_g2p_group_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_group_membership_form
 msgid "Group Membership"
-msgstr ""
+msgstr "ສະມາຊິກກຸ່ມ"
 
 #. module: g2p_registry_membership
 #: model:ir.actions.act_window,name:g2p_registry_membership.action_group_membership_kind
 #: model:ir.model,name:g2p_registry_membership.model_g2p_group_membership_kind
 #: model:ir.ui.menu,name:g2p_registry_membership.menu_group_membership_kind
 msgid "Group Membership Kind"
-msgstr ""
+msgstr "ຊະນິດສະມາຊິກກຸ່ມ"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_individuals_form_membership
 msgid "Group Name"
-msgstr ""
+msgstr "ຊື່ກຸ່ມ"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_group_membership_form
 msgid "Group:"
-msgstr ""
+msgstr "ກຸ່ມ:"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_individuals_form_membership
 msgid "Groups"
-msgstr ""
+msgstr "ກຸ່ມ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__id
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__id
 msgid "ID"
-msgstr ""
+msgstr "ລະຫັດ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields.selection,name:g2p_registry_membership.selection__g2p_group_membership__status__inactive
+#, fuzzy
 msgid "Inactive"
-msgstr ""
+msgstr "ບໍ່ໄດ້ໃຊ້ງານ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.group_membership_filter
 msgid "Individual"
-msgstr ""
+msgstr "ບຸກຄົນ"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_group_membership_form
 msgid "Individual:"
-msgstr ""
+msgstr "ບຸກຄົນ:"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__is_ended
 msgid "Is Ended"
-msgstr ""
+msgstr "ສິ້ນສຸດແລ້ວ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__name
 msgid "Kind"
-msgstr ""
+msgstr "ຊະນິດ"
 
+# Review needed: Glossary term 'updated' found, but target 'ອັບເດດແລ້ວ'
+# missing
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__write_uid
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__write_uid
+#, fuzzy
 msgid "Last Updated by"
-msgstr ""
+msgstr "ແກ້ໄຂລ່າສຸດໂດຍ"
 
+# Review needed: Glossary term 'updated' found, but target 'ອັບເດດແລ້ວ'
+# missing
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__write_date
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__write_date
+#, fuzzy
 msgid "Last Updated on"
-msgstr ""
+msgstr "ແກ້ໄຂລ່າສຸດເມື່ອ"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_groups_form_membership
 msgid "Member Name"
-msgstr ""
+msgstr "ຊື່ສະມາຊິກ"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_groups_form_membership
 msgid "Members"
-msgstr ""
+msgstr "ສະມາຊິກ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_res_partner__individual_membership_ids
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_res_users__individual_membership_ids
 msgid "Membership to Groups"
-msgstr ""
+msgstr "ສະມາຊິກຂອງກຸ່ມ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_res_partner__z_ind_grp_num_individuals
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_res_users__z_ind_grp_num_individuals
 msgid "Number of individuals"
-msgstr ""
+msgstr "ຈຳນວນບຸກຄົນ"
 
 #. module: g2p_registry_membership
 #. odoo-python
@@ -236,17 +251,17 @@ msgstr ""
 #: code:addons/g2p_registry_membership/models/individual.py:0
 #, python-format
 msgid "Only one %s is allowed per group"
-msgstr ""
+msgstr "ອະນຸຍາດໃຫ້ມີພຽງໜຶ່ງ %s ຕໍ່ກຸ່ມ"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_groups_form_membership
 msgid "Open Individual Form"
-msgstr ""
+msgstr "ເປີດແບບຟອມບຸກຄົນ"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_individuals_form_membership
 msgid "Open group form"
-msgstr ""
+msgstr "ເປີດແບບຟອມກຸ່ມ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__kind
@@ -254,58 +269,58 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_groups_form_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_individuals_form_membership
 msgid "Role"
-msgstr ""
+msgstr "ບົດບາດ"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_group_membership_form
 msgid "Role:"
-msgstr ""
+msgstr "ບົດບາດ:"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.group_membership_filter
 msgid "Search Group Memberships"
-msgstr ""
+msgstr "ຄົ້ນຫາສະມາຊິກກຸ່ມ"
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_group_membership_form
 msgid "Select a Group..."
-msgstr ""
+msgstr "ເລືອກກຸ່ມ..."
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_group_membership_form
 msgid "Select an Individual..."
-msgstr ""
+msgstr "ເລືອກບຸກຄົນ..."
 
 #. module: g2p_registry_membership
 #: model_terms:ir.ui.view,arch_db:g2p_registry_membership.view_groups_form_membership
 msgid "Sex"
-msgstr ""
+msgstr "ເພດ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__start_date
 msgid "Start Date"
-msgstr ""
+msgstr "ວັນທີເລີ່ມຕົ້ນ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership__status
 msgid "Status"
-msgstr ""
+msgstr "ສະຖານະ"
 
 #. module: g2p_registry_membership
 #: model:ir.model.fields,field_description:g2p_registry_membership.field_g2p_group_membership_kind__is_unique
 msgid "Unique"
-msgstr ""
+msgstr "ໜຶ່ງດຽວ"
 
 #. module: g2p_registry_membership
 #. odoo-python
 #: code:addons/g2p_registry_membership/models/group_membership.py:0
 #, python-format
 msgid "kind already exists"
-msgstr ""
+msgstr "ຊະນິດນີ້ມີຢູ່ແລ້ວ"
 
 #. module: g2p_registry_membership
 #. odoo-python
 #: code:addons/g2p_registry_membership/models/group_membership.py:0
 #, python-format
 msgid "kind should not empty."
-msgstr ""
+msgstr "ຊະນິດບໍ່ຄວນວ່າງເປົ່າ."

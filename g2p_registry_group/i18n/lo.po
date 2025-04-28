@@ -8,11 +8,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: lo\n"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
@@ -21,133 +21,150 @@ msgid ""
 "                                        <b>Address</b>\n"
 "                                    </span>"
 msgstr ""
+"<span class=\"o_form_label o_td_label\" name=\"address_name\"> <b>ທີ່ຢູ່</b>"
+" </span>"
 
+# Review needed: Glossary term 'disable' found, but target 'ພິການ' missing;
+# Glossary term 'Disable: ພິການ' is incorrect in this software context.
+# Translated as 'ປິດໃຊ້ງານ' (Deactivate/Disable).
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
+#, fuzzy
 msgid "<span class=\"o_stat_text\">Disable</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">ປິດໃຊ້ງານ</span>"
 
+# Review needed: Glossary term 'Enable: ເຮັດໃຫ້ສາມາດ' is acceptable, but
+# 'ເປີດໃຊ້ງານ' (Activate/Enable) might be more suitable for a software button
+# context, contrasting with the translation chosen for 'Disable'.
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
+#, fuzzy
 msgid "<span class=\"o_stat_text\">Enable</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">ເປີດໃຊ້ງານ</span>"
 
 #. module: g2p_registry_group
 #: model_terms:ir.actions.act_window,help:g2p_registry_group.action_group_kind
 msgid "Add a group type!"
-msgstr ""
+msgstr "ເພີ່ມປະເພດກຸ່ມ!"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_registry_groups_filter
 msgid "Archived"
-msgstr ""
+msgstr "ເກັບຮັກສາ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.actions.act_window,help:g2p_registry_group.action_group_kind
 msgid "Click the create button to enter a new group type."
-msgstr ""
+msgstr "ກົດປຸ່ມສ້າງເພື່ອປ້ອນປະເພດກຸ່ມໃໝ່."
 
 #. module: g2p_registry_group
 #: model_terms:ir.actions.act_window,help:g2p_registry_group.action_groups_list
 msgid "Click the create button to enter the new registrant's information."
-msgstr ""
+msgstr "ກົດປຸ່ມສ້າງເພື່ອປ້ອນຂໍ້ມູນຜູ້ລົງທະບຽນໃໝ່."
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "Click to open the relationship form"
-msgstr ""
+msgstr "ກົດເພື່ອເປີດແບບຟອມຄວາມສຳພັນ."
 
 #. module: g2p_registry_group
 #: model:ir.model,name:g2p_registry_group.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "ຕິດຕໍ່ພົວພັນ"
 
+# Review needed: Glossary term 'contact' found, but target 'ຕິດຕໍ່ພົວພັນ'
+# missing
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
+#, fuzzy
 msgid "Contact Details"
-msgstr ""
+msgstr "ລາຍລະອຽດການຕິດຕໍ່"
 
 #. module: g2p_registry_group
 #: model_terms:ir.actions.act_window,help:g2p_registry_group.action_groups_list
 msgid "Create a new group registrant!"
-msgstr ""
+msgstr "ສ້າງຜູ້ລົງທະບຽນກຸ່ມໃໝ່!"
 
 #. module: g2p_registry_group
 #: model:ir.model.fields,field_description:g2p_registry_group.field_g2p_group_kind__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "ສ້າງໂດຍ"
 
 #. module: g2p_registry_group
 #: model:ir.model.fields,field_description:g2p_registry_group.field_g2p_group_kind__create_date
 msgid "Created on"
-msgstr ""
+msgstr "ສ້າງຂຶ້ນເມື່ອ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "Disable"
-msgstr ""
+msgstr "ພິການ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "Disabled"
-msgstr ""
+msgstr "ພິການ"
 
 #. module: g2p_registry_group
 #: model:ir.model.fields,field_description:g2p_registry_group.field_g2p_group_kind__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "ຊື່ສະແດງ"
 
+# Review needed: Glossary term 'Enable: ເຮັດໃຫ້ສາມາດ' is acceptable, but
+# 'ເປີດໃຊ້ງານ' (Activate/Enable) might be more suitable for a software
+# button/action context.
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
+#, fuzzy
 msgid "Enable"
-msgstr ""
+msgstr "ເປີດໃຊ້ງານ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "Enter name of group..."
-msgstr ""
+msgstr "ປ້ອນຊື່ກຸ່ມ..."
 
 #. module: g2p_registry_group
 #: model:ir.model,name:g2p_registry_group.model_g2p_group_kind
 msgid "Group Kind"
-msgstr ""
+msgstr "ປະເພດກຸ່ມ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "Group Registrant"
-msgstr ""
+msgstr "ຜູ້ລົງທະບຽນກຸ່ມ"
 
 #. module: g2p_registry_group
 #: model:ir.actions.act_window,name:g2p_registry_group.action_group_kind
 msgid "Group Types"
-msgstr ""
+msgstr "ປະເພດກຸ່ມ"
 
 #. module: g2p_registry_group
 #: model:ir.ui.menu,name:g2p_registry_group.menu_group_kind
 msgid "Group types"
-msgstr ""
+msgstr "ປະເພດກຸ່ມ"
 
 #. module: g2p_registry_group
 #: model:ir.actions.act_window,name:g2p_registry_group.action_groups_list
 #: model:ir.ui.menu,name:g2p_registry_group.menu_groups_list
 msgid "Households"
-msgstr ""
+msgstr "ຄົວເຮືອນ"
 
 #. module: g2p_registry_group
 #: model:ir.model.fields,field_description:g2p_registry_group.field_g2p_group_kind__id
 msgid "ID"
-msgstr ""
+msgstr "ລະຫັດ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "ID Number"
-msgstr ""
+msgstr "ເລກລະຫັດ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "IDs"
-msgstr ""
+msgstr "ລະຫັດ"
 
 #. module: g2p_registry_group
 #: model:ir.model.fields,field_description:g2p_registry_group.field_g2p_group_kind__name
@@ -156,95 +173,104 @@ msgstr ""
 #: model:ir.model.fields,field_description:g2p_registry_group.field_res_users__kind
 #: model:ir.model.fields,field_description:g2p_registry_group.field_res_users__kind_as_str
 msgid "Kind"
-msgstr ""
+msgstr "ປະເພດ"
 
+# Review needed: Glossary term 'updated' found, but target 'ອັບເດດແລ້ວ'
+# missing
 #. module: g2p_registry_group
 #: model:ir.model.fields,field_description:g2p_registry_group.field_g2p_group_kind__write_uid
+#, fuzzy
 msgid "Last Updated by"
-msgstr ""
+msgstr "ປັບປຸງຫຼ້າສຸດໂດຍ"
 
+# Review needed: Glossary term 'updated' found, but target 'ອັບເດດແລ້ວ'
+# missing
 #. module: g2p_registry_group
 #: model:ir.model.fields,field_description:g2p_registry_group.field_g2p_group_kind__write_date
+#, fuzzy
 msgid "Last Updated on"
-msgstr ""
+msgstr "ປັບປຸງຫຼ້າສຸດເມື່ອ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "Other Information"
-msgstr ""
+msgstr "ຂໍ້ມູນອື່ນໆ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "Others Related to this Registrant:"
-msgstr ""
+msgstr "ອື່ນໆທີ່ກ່ຽວຂ້ອງກັບຜູ້ລົງທະບຽນນີ້:"
 
+# Review needed: Term 'Partial' not in glossary. Translated literally as
+# 'ກຸ່ມບາງສ່ວນ'. Needs confirmation based on exact functionality.
 #. module: g2p_registry_group
 #: model:ir.model.fields,field_description:g2p_registry_group.field_res_partner__is_partial_group
 #: model:ir.model.fields,field_description:g2p_registry_group.field_res_users__is_partial_group
+#, fuzzy
 msgid "Partial Group"
-msgstr ""
+msgstr "ກຸ່ມບາງສ່ວນ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "Phone Numbers"
-msgstr ""
+msgstr "ເບີໂທລະສັບ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "Registrant"
-msgstr ""
+msgstr "ຜູ້ລົງທະບຽນ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "Registrant is related to:"
-msgstr ""
+msgstr "ຜູ້ລົງທະບຽນກ່ຽວຂ້ອງກັບ:"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "Relation"
-msgstr ""
+msgstr "ຄວາມສຳພັນ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "Relationships"
-msgstr ""
+msgstr "ຄວາມສຳພັນ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_registry_groups_filter
 msgid "Search Partner"
-msgstr ""
+msgstr "ຄົ້ນຫາຄູ່ຮ່ວມງານ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_list_tree
 msgid "Tags"
-msgstr ""
+msgstr "ປ້າຍກຳກັບ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "Tags..."
-msgstr ""
+msgstr "ປ້າຍກຳກັບ"
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "Tags:"
-msgstr ""
+msgstr "ປ້າຍກຳກັບ"
 
 #. module: g2p_registry_group
 #. odoo-python
 #: code:addons/g2p_registry_group/models/group.py:0
 #, python-format
 msgid "kind already exists"
-msgstr ""
+msgstr "ປະເພດນີ້ມີຢູ່ແລ້ວ"
 
 #. module: g2p_registry_group
 #. odoo-python
 #: code:addons/g2p_registry_group/models/group.py:0
 #, python-format
 msgid "kind should not empty."
-msgstr ""
+msgstr "ປະເພດຕ້ອງບໍ່ຫວ່າງເປົ່າ."
 
 #. module: g2p_registry_group
 #: model_terms:ir.ui.view,arch_db:g2p_registry_group.view_groups_form
 msgid "| Company:"
-msgstr ""
+msgstr "| ບໍລິສັດ:"

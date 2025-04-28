@@ -8,23 +8,30 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: lo\n"
 
 #. module: g2p_openid_vci_rest_api
 #: model:ir.model.fields,field_description:g2p_openid_vci_rest_api.field_fastapi_endpoint__app
 msgid "App"
-msgstr ""
+msgstr "ແອັບ"
 
+# Review needed: Technical term "Endpoint" translated as "ຈຸດເຊື່ອມຕໍ່". Needs
+# validation in the context of APIs. "FastAPI" is kept untranslated as it's a
+# proper name.
 #. module: g2p_openid_vci_rest_api
 #: model:ir.model,name:g2p_openid_vci_rest_api.model_fastapi_endpoint
+#, fuzzy
 msgid "FastAPI Endpoint"
-msgstr ""
+msgstr "ຈຸດເຊື່ອມຕໍ່ FastAPI"
 
+# Review needed: Technical term "Endpoint" translated as "ຈຸດເຊື່ອມຕໍ່". Needs
+# validation. "VCI" is kept untranslated, assuming it's an acronym/initialism.
 #. module: g2p_openid_vci_rest_api
 #: model:ir.model.fields.selection,name:g2p_openid_vci_rest_api.selection__fastapi_endpoint__app__vci
+#, fuzzy
 msgid "VCI Endpoint"
-msgstr ""
+msgstr "ຈຸດເຊື່ອມຕໍ່ VCI"

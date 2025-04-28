@@ -8,11 +8,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: lo\n"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
@@ -21,313 +21,359 @@ msgid ""
 "                                        <b>Address</b>\n"
 "                                    </span>"
 msgstr ""
+"<span class=\"o_form_label o_td_label\" name=\"address_name\">"
+"                                         <b>ທີ່ຢູ່</b>"
+"                                     </span>"
 
+# Review needed: Glossary term 'disable' found, but target 'ພິການ' missing;
+# Glossary term 'Disable -> ພິການ' seems incorrect in this context (means
+# handicapped). Used 'ປິດໃຊ້ງານ' which means 'turn off usage'.
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
+#, fuzzy
 msgid "<span class=\"o_stat_text\">Disable</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">ປິດໃຊ້ງານ</span>"
 
+# Review needed: Glossary term 'Enable -> ເຮັດໃຫ້ສາມາດ' is a bit literal and
+# long for a UI element. Used 'ເປີດໃຊ້ງານ' (turn on usage) which is more
+# common and concise.
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
+#, fuzzy
 msgid "<span class=\"o_stat_text\">Enable</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">ເປີດໃຊ້ງານ</span>"
 
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_gender_type__active
 msgid "Active"
-msgstr ""
+msgstr "ດໍາເນີນຢູ່"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.actions.act_window,help:g2p_registry_individual.action_gender_type
 msgid "Add an Gender Type!"
-msgstr ""
+msgstr "ເພີ່ມປະເພດເພດໃໝ່!"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Additional Name..."
-msgstr ""
+msgstr "ຊື່ເພີ່ມເຕີມ..."
 
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_partner__age
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_users__age
 msgid "Age"
-msgstr ""
+msgstr "ອາຍຸ"
 
 #. module: g2p_registry_individual
 #. odoo-python
 #: code:addons/g2p_registry_individual/models/individual.py:0
 #, python-format
 msgid "Age must be a valid integer."
-msgstr ""
+msgstr "ອາຍຸຕ້ອງເປັນຕົວເລກຈຳນວນເຕັມທີ່ຖືກຕ້ອງ."
 
+# Review needed: Glossary term 'Birthdate -> ເກີດເມື່ອວັນທີ' is verbose for a
+# field label. Used the standard 'ວັນເດືອນປີເກີດ'.
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_partner__birthdate_not_exact
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_users__birthdate_not_exact
+#, fuzzy
 msgid "Approximate Birthdate"
-msgstr ""
+msgstr "ວັນເດືອນປີເກີດໂດຍປະມານ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_registry_individuals_filter
 msgid "Archived"
-msgstr ""
+msgstr "ເກັບຮັກສາ"
 
+# Review needed: Glossary term 'Birthplace -> Birthplac' is a typo. Used
+# standard 'ສະຖານທີ່ເກີດ'.
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_partner__birth_place
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_users__birth_place
+#, fuzzy
 msgid "Birth Place"
-msgstr ""
+msgstr "ສະຖານທີ່ເກີດ"
 
+# Review needed: Glossary term 'state' found, but target 'ລັດ' missing; Term
+# 'CivilState' not in glossary. Translated as 'ສະຖານະພາບສົມລົດ' (Marital
+# Status) based on common usage in forms.
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
+#, fuzzy
 msgid "CivilState"
-msgstr ""
+msgstr "ສະຖານະພາບສົມລົດ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.actions.act_window,help:g2p_registry_individual.action_gender_type
 msgid "Click the create button to enter a new gender type."
-msgstr ""
+msgstr "ຄລິກປຸ່ມສ້າງເພື່ອປ້ອນປະເພດເພດໃໝ່."
 
 #. module: g2p_registry_individual
 #: model_terms:ir.actions.act_window,help:g2p_registry_individual.action_individuals_list
 msgid "Click the create button to enter the new registrant's information."
-msgstr ""
+msgstr "ຄລິກປຸ່ມສ້າງເພື່ອປ້ອນຂໍ້ມູນຂອງຜູ້ລົງທະບຽນໃໝ່."
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Click to open the relationship form"
-msgstr ""
+msgstr "ຄລິກເພື່ອເປີດແບບຟອມຄວາມສຳພັນ"
 
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_gender_type__code
 msgid "Code"
-msgstr ""
+msgstr "ລະຫັດ"
 
 #. module: g2p_registry_individual
 #: model:ir.model,name:g2p_registry_individual.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "ຕິດຕໍ່ພົວພັນ"
 
+# Review needed: Glossary term 'individual registrant' found, but target
+# 'ຜູ້ລົງທະບຽນສ່ວນບຸກຄົນ' missing
 #. module: g2p_registry_individual
 #: model_terms:ir.actions.act_window,help:g2p_registry_individual.action_individuals_list
+#, fuzzy
 msgid "Create a new individual registrant!"
-msgstr ""
+msgstr "ສ້າງຜູ້ລົງທະບຽນບຸກຄົນໃໝ່!"
 
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_gender_type__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "ສ້າງໂດຍ"
 
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_gender_type__create_date
 msgid "Created on"
-msgstr ""
+msgstr "ສ້າງຂຶ້ນເມື່ອ"
 
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_partner__birthdate
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_users__birthdate
 msgid "Date of Birth"
-msgstr ""
+msgstr "ວັນເດືອນປີເກີດ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Disabled"
-msgstr ""
+msgstr "ພິການ"
 
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_gender_type__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "ຊື່ສະແດງ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "District"
-msgstr ""
+msgstr "ເມືອງ"
 
+# Review needed: "Family Name" usually means Last Name/Surname. Used
+# 'ນາມສະກຸນ' instead of a literal translation.
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
+#, fuzzy
 msgid "Family Name..."
-msgstr ""
+msgstr "ນາມສະກຸນ..."
 
+# Review needed: Glossary entry for "First Name" is just 'ຊື່', which is
+# ambiguous. Using 'ຊື່' but needs confirmation if 'ຊື່ແທ້' is better.
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_partner__given_name
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_users__given_name
+#, fuzzy
 msgid "First Name"
-msgstr ""
+msgstr "ຊື່"
 
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_partner__gender
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_users__gender
 msgid "Gender"
-msgstr ""
+msgstr "ເພດ"
 
 #. module: g2p_registry_individual
 #: model:ir.model,name:g2p_registry_individual.model_gender_type
 msgid "Gender Type"
-msgstr ""
+msgstr "ປະເພດເພດ"
 
 #. module: g2p_registry_individual
 #: model:ir.actions.act_window,name:g2p_registry_individual.action_gender_type
 #: model:ir.ui.menu,name:g2p_registry_individual.menu_gender_type
 msgid "Gender Types"
-msgstr ""
+msgstr "ປະເພດເພດ"
 
 #. module: g2p_registry_individual
 #. odoo-python
 #: code:addons/g2p_registry_individual/models/gender.py:0
 #, python-format
 msgid "Gender type should be unique"
-msgstr ""
+msgstr "ປະເພດເພດຕ້ອງບໍ່ຊ້ຳກັນ."
 
 #. module: g2p_registry_individual
 #. odoo-python
 #: code:addons/g2p_registry_individual/models/gender.py:0
 #, python-format
 msgid "Gender type should not empty."
-msgstr ""
+msgstr "ປະເພດເພດຕ້ອງບໍ່ຫວ່າງເປົ່າ."
 
+# Review needed: "Given Name" means First Name. Glossary entry is ambiguous.
+# Using 'ຊື່' but needs confirmation if 'ຊື່ແທ້' is better.
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
+#, fuzzy
 msgid "Given Name..."
-msgstr ""
+msgstr "ຊື່..."
 
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_gender_type__id
 msgid "ID"
-msgstr ""
+msgstr "ລະຫັດ"
 
+# Review needed: Translated 'ID Number' as 'ເລກປະຈຳຕົວ' (Personal ID Number)
+# for clarity in context.
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
+#, fuzzy
 msgid "ID Number"
-msgstr ""
+msgstr "ເລກປະຈຳຕົວ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "IDs"
-msgstr ""
+msgstr "ລະຫັດ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Income"
-msgstr ""
+msgstr "ລາຍໄດ້"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Individual Registrant"
-msgstr ""
+msgstr "ຜູ້ລົງທະບຽນສ່ວນບຸກຄົນ"
 
 #. module: g2p_registry_individual
 #: model:ir.actions.act_window,name:g2p_registry_individual.action_individuals_list
 #: model:ir.ui.menu,name:g2p_registry_individual.menu_individuals_list
 msgid "Individuals"
-msgstr ""
+msgstr "ບຸກຄົນ"
 
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_partner__family_name
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_users__family_name
 msgid "Last Name"
-msgstr ""
+msgstr "ນາມສະກຸນ"
 
+# Review needed: Glossary term 'updated' found, but target 'ອັບເດດແລ້ວ'
+# missing
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_gender_type__write_uid
+#, fuzzy
 msgid "Last Updated by"
-msgstr ""
+msgstr "ປັບປຸງລ່າສຸດໂດຍ"
 
+# Review needed: Glossary term 'updated' found, but target 'ອັບເດດແລ້ວ'
+# missing
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_gender_type__write_date
+#, fuzzy
 msgid "Last Updated on"
-msgstr ""
+msgstr "ປັບປຸງລ່າສຸດເມື່ອ"
 
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_partner__addl_name
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_res_users__addl_name
 msgid "Middle Name"
-msgstr ""
+msgstr "ຊື່ກາງ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Occupation"
-msgstr ""
+msgstr "ອາຊີບ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Other Information"
-msgstr ""
+msgstr "ຂໍ້ມູນອື່ນໆ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Others Related to this Registrant:"
-msgstr ""
+msgstr "ຄົນອື່ນໆທີ່ກ່ຽວຂ້ອງກັບຜູ້ລົງທະບຽນນີ້:"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Personal Info"
-msgstr ""
+msgstr "ຂໍ້ມູນສ່ວນຕົວ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Phone Numbers"
-msgstr ""
+msgstr "ເບີໂທລະສັບ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Registrant"
-msgstr ""
+msgstr "ຜູ້ລົງທະບຽນ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Registrant is related to:"
-msgstr ""
+msgstr "ຜູ້ລົງທະບຽນກ່ຽວຂ້ອງກັບ:"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Relation"
-msgstr ""
+msgstr "ຄວາມສຳພັນ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Relationships"
-msgstr ""
+msgstr "ຄວາມສຳພັນ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_registry_individuals_filter
 msgid "Search Partner"
-msgstr ""
+msgstr "ຄົ້ນຫາຄູ່ຮ່ວມງານ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_list_tree
 msgid "Tags"
-msgstr ""
+msgstr "ປ້າຍກຳກັບ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Tags..."
-msgstr ""
+msgstr "ປ້າຍກຳກັບ"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "Tags:"
-msgstr ""
+msgstr "ປ້າຍກຳກັບ"
 
 #. module: g2p_registry_individual
 #: model:ir.model.fields,field_description:g2p_registry_individual.field_gender_type__value
 msgid "Value"
-msgstr ""
+msgstr "ຄ່າ"
 
 #. module: g2p_registry_individual
 #. odoo-python
 #: code:addons/g2p_registry_individual/models/individual.py:0
 #, python-format
 msgid "You can't select a date of birth greater than today"
-msgstr ""
+msgstr "ທ່ານບໍ່ສາມາດເລືອກວັນເດືອນປີເກີດທີ່ເກີນມື້ນີ້ໄດ້"
 
+# Review needed: Repetition (msgstr same as msgid); Missing Lao characters;
+# Kept the date format placeholder 'mm/dd/yyyy' as is. Human review needed to
+# confirm if it should be localized to Lao format 'ວວ/ດດ/ປປປປ'.
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
+#, fuzzy
 msgid "mm/dd/yyyy"
-msgstr ""
+msgstr "mm/dd/yyyy"
 
 #. module: g2p_registry_individual
 #: model_terms:ir.ui.view,arch_db:g2p_registry_individual.view_individuals_form
 msgid "| Company:"
-msgstr ""
+msgstr "| ບໍລິສັດ:"

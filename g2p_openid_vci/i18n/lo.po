@@ -8,149 +8,208 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: lo\n"
 
+# Review needed: Technical term 'Auth Allowed Audiences'. Translation is based
+# on context but needs expert validation for OpenID terminology in Lao.
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__auth_allowed_auds
+#, fuzzy
 msgid "Auth Allowed Audiences"
-msgstr ""
+msgstr "ຜູ້ຮັບທີ່ໄດ້ຮັບອະນຸຍາດກວດສອບ"
 
+# Review needed: Technical term 'Auth Allowed Client IDs'. Translation is
+# based on context but needs expert validation for OpenID terminology in Lao.
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__auth_allowed_client_ids
+#, fuzzy
 msgid "Auth Allowed Client IDs"
-msgstr ""
+msgstr "ID ລູກຄ້າທີ່ໄດ້ຮັບອະນຸຍາດກວດສອບ"
 
+# Review needed: Technical term 'Auth Allowed Issuers'. Translation is based
+# on context but needs expert validation for OpenID terminology in Lao.
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__auth_allowed_issuers
+#, fuzzy
 msgid "Auth Allowed Issuers"
-msgstr ""
+msgstr "ຜູ້ອອກທີ່ໄດ້ຮັບອະນຸຍາດກວດສອບ"
 
+# Review needed: Technical term 'Auth Issuer Jwks Mapping'. Translation is
+# descriptive and needs expert validation for OpenID/JWKS terminology in Lao.
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__auth_issuer_jwks_mapping
+#, fuzzy
 msgid "Auth Issuer Jwks Mapping"
-msgstr ""
+msgstr "ການສ້າງແຜນຜັງ Jwks ຂອງຜູ້ອອກການກວດສອບ"
 
+# Review needed: Technical term 'Auth Subject ID Type'. Translation is based
+# on context but needs expert validation for OpenID terminology in Lao.
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__auth_sub_id_type_id
+#, fuzzy
 msgid "Auth Subject ID Type"
-msgstr ""
+msgstr "ປະເພດ ID ຫົວຂໍ້ການກວດສອບ"
 
 #. module: g2p_openid_vci
 #: model_terms:ir.ui.view,arch_db:g2p_openid_vci.view_g2p_openid_vci_issuers_form
 msgid "Base"
-msgstr ""
+msgstr "ພື້ນຖານ"
 
+# Review needed: Repetition (msgstr same as msgid); Missing Lao characters;
+# Technical term 'Contexts Json'. Kept English term as standard Lao equivalent
+# is unclear.
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__contexts_json
+#, fuzzy
 msgid "Contexts Json"
-msgstr ""
+msgstr "Contexts Json"
 
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "ສ້າງໂດຍ"
 
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__create_date
 msgid "Created on"
-msgstr ""
+msgstr "ສ້າງຂຶ້ນເມື່ອ"
 
+# Review needed: Technical term 'Credential Format'. Translation uses a
+# descriptive approach for 'Credential' and needs validation.
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__credential_format
+#, fuzzy
 msgid "Credential Format"
-msgstr ""
+msgstr "ຮູບແບບຂໍ້ມູນຢັ້ງຢືນ"
 
+# Review needed: Technical term 'Credential Type'. Translation uses a
+# descriptive approach for 'Credential' and needs validation.
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__credential_type
+#, fuzzy
 msgid "Credential Type"
-msgstr ""
+msgstr "ປະເພດຂໍ້ມູນຢັ້ງຢືນ"
 
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "ຊື່ສະແດງ"
 
+# Review needed: Technical term 'Encryption Provider'. Translation is
+# descriptive and needs expert validation.
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__encryption_provider_id
+#, fuzzy
 msgid "Encryption Provider"
-msgstr ""
+msgstr "ຜູ້ໃຫ້ບໍລິການເຂົ້າລະຫັດ"
 
+# Review needed: Repetition (msgstr same as msgid); Missing Lao characters
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__id
+#, fuzzy
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
+# Review needed: Technical term 'Issuer Metadata Text'. Translation is
+# descriptive and needs expert validation.
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__issuer_metadata_text
+#, fuzzy
 msgid "Issuer Metadata Text"
-msgstr ""
+msgstr "ຂໍ້ຄວາມເມຕາດາຕາຜູ້ອອກ"
 
+# Review needed: Technical term 'Issuer Type'. Translation is descriptive and
+# needs expert validation.
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__issuer_type
+#, fuzzy
 msgid "Issuer Type"
-msgstr ""
+msgstr "ປະເພດຜູ້ອອກ"
 
+# Review needed: Glossary term 'updated' found, but target 'ອັບເດດແລ້ວ'
+# missing
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__write_uid
+#, fuzzy
 msgid "Last Updated by"
-msgstr ""
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
 
+# Review needed: Glossary term 'updated' found, but target 'ອັບເດດແລ້ວ'
+# missing
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__write_date
+#, fuzzy
 msgid "Last Updated on"
-msgstr ""
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
 
+# Review needed: Technical term 'VCI issuers'. Translation is descriptive and
+# needs expert validation.
 #. module: g2p_openid_vci
 #: model_terms:ir.actions.act_window,help:g2p_openid_vci.action_vci_issuers
+#, fuzzy
 msgid "Manage allowed VCI issuers."
-msgstr ""
+msgstr "ຈັດການຜູ້ອອກ VCI ທີ່ໄດ້ຮັບອະນຸຍາດ."
 
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__name
 msgid "Name"
-msgstr ""
+msgstr "ຊື່"
 
+# Review needed: Technical term 'OpenID VCI Issuer'. Translation is
+# descriptive and needs expert validation.
 #. module: g2p_openid_vci
 #: model:ir.model,name:g2p_openid_vci.model_g2p_openid_vci_issuers
+#, fuzzy
 msgid "OpenID VCI Issuer"
-msgstr ""
+msgstr "ຜູ້ອອກ OpenID VCI"
 
 #. module: g2p_openid_vci
 #: model:ir.model.fields.selection,name:g2p_openid_vci.selection__g2p_openid_vci_issuers__issuer_type__registry
 msgid "Registry"
-msgstr ""
+msgstr "ການລົງທະບຽນ"
 
+# Review needed: Technical term 'Scope'. Translation is standard but needs
+# verification in this specific OpenID context.
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__scope
+#, fuzzy
 msgid "Scope"
-msgstr ""
+msgstr "ຂອບເຂດ"
 
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__supported_format
 msgid "Supported Format"
-msgstr ""
+msgstr "ຮູບແບບທີ່ຮອງຮັບ"
 
 #. module: g2p_openid_vci
 #: model:ir.model.fields,field_description:g2p_openid_vci.field_g2p_openid_vci_issuers__unique_issuer_id
 msgid "Unique Issuer ID"
-msgstr ""
+msgstr "ID ຜູ້ອອກທີ່ບໍ່ຊໍ້າກັນ"
 
+# Review needed: Technical term 'VCI Issuers'. Translation is descriptive and
+# needs expert validation.
 #. module: g2p_openid_vci
 #: model:ir.ui.menu,name:g2p_openid_vci.menu_vci_issuers
+#, fuzzy
 msgid "VCI Issuers"
-msgstr ""
+msgstr "ຜູ້ອອກ VCI"
 
+# Review needed: Technical term 'VCI issuers'. Translation is descriptive and
+# needs expert validation.
 #. module: g2p_openid_vci
 #: model:ir.actions.act_window,name:g2p_openid_vci.action_vci_issuers
 #: model_terms:ir.ui.view,arch_db:g2p_openid_vci.view_g2p_openid_vci_issuers_form
+#, fuzzy
 msgid "VCI issuers"
-msgstr ""
+msgstr "ຜູ້ອອກ VCI"
 
+# Review needed: Repetition (msgstr same as msgid); Missing Lao characters
 #. module: g2p_openid_vci
 #: model:ir.model.fields.selection,name:g2p_openid_vci.selection__g2p_openid_vci_issuers__supported_format__ldp_vc
+#, fuzzy
 msgid "ldp_vc"
-msgstr ""
+msgstr "ldp_vc"
